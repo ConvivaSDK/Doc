@@ -14,7 +14,7 @@
     <a title="Protocols  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">ConvivaSDK Docs</a> (96% documented)</p>
+        <p><a href="index.html">ConvivaSDK 4.0.5 Docs</a> (80% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -30,6 +30,9 @@
           <li class="nav-group-name">
             <a href="Classes.html">Classes</a>
             <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Classes/CISAnalyticsCreator.html">CISAnalyticsCreator</a>
+              </li>
               <li class="nav-group-task">
                 <a href="Classes/CISClientCreator.html">CISClientCreator</a>
               </li>
@@ -50,6 +53,18 @@
               </li>
               <li class="nav-group-task">
                 <a href="Classes/CISSystemSettings.html">CISSystemSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/CISUtility.html">CISUtility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ConvivaContentInfo.html">ConvivaContentInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ConvivaLightSession.html">ConvivaLightSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Classes/ConvivaPlayerState.html">ConvivaPlayerState</a>
               </li>
               <li class="nav-group-task">
                 <a href="Classes.html#/c:objc(cs)IOSHttpInterface">IOSHttpInterface</a>
@@ -75,11 +90,155 @@
               <li class="nav-group-task">
                 <a href="Classes.html#/c:objc(cs)IOSTimerInterface">IOSTimerInterface</a>
               </li>
+              <li class="nav-group-task">
+                <a href="Classes/LivePass.html">LivePass</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
             <a href="Constants.html">Constants</a>
             <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_BUFFERING">CIS_BUFFERING</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_NOTMONITORED">CIS_NOTMONITORED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_PAUSED">CIS_PAUSED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_PLAYING">CIS_PLAYING</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SDK_OPTION_EXTERNAL_BITRATE_REPORTING">CIS_SDK_OPTION_EXTERNAL_BITRATE_REPORTING</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SDK_OPTION_EXTERNAL_STREAMURL_REPORTING">CIS_SDK_OPTION_EXTERNAL_STREAMURL_REPORTING</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SIGNAL_STRENGTH_INVALID_VALUE">CIS_SIGNAL_STRENGTH_INVALID_VALUE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_AD_BREAK_AD_PLAYER">CIS_SSDK_AD_BREAK_AD_PLAYER</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_AD_BREAK_POD_DURATION">CIS_SSDK_AD_BREAK_POD_DURATION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_AD_BREAK_POD_INDEX">CIS_SSDK_AD_BREAK_POD_INDEX</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_AD_BREAK_POD_POSITION">CIS_SSDK_AD_BREAK_POD_POSITION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_APP_BACKGROUND_EVENT">CIS_SSDK_APP_BACKGROUND_EVENT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_APP_FOREGROUND_EVENT">CIS_SSDK_APP_FOREGROUND_EVENT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_METADATA_ASSET_NAME">CIS_SSDK_METADATA_ASSET_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_METADATA_DEFAULT_RESOURCE">CIS_SSDK_METADATA_DEFAULT_RESOURCE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_METADATA_DURATION">CIS_SSDK_METADATA_DURATION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_METADATA_ENCODED_FRAMERATE">CIS_SSDK_METADATA_ENCODED_FRAMERATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_METADATA_IS_LIVE">CIS_SSDK_METADATA_IS_LIVE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_METADATA_IS_OFFLINE_PLAYBACK">CIS_SSDK_METADATA_IS_OFFLINE_PLAYBACK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_METADATA_PLAYER_NAME">CIS_SSDK_METADATA_PLAYER_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_METADATA_STREAM_URL">CIS_SSDK_METADATA_STREAM_URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_METADATA_VIEWER_ID">CIS_SSDK_METADATA_VIEWER_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_AVERAGE_BITRATE">CIS_SSDK_PLAYBACK_METRIC_AVERAGE_BITRATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_BITRATE">CIS_SSDK_PLAYBACK_METRIC_BITRATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_BUFFER_LENGTH">CIS_SSDK_PLAYBACK_METRIC_BUFFER_LENGTH</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_CDN_IP">CIS_SSDK_PLAYBACK_METRIC_CDN_IP</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_CONN_TYPE">CIS_SSDK_PLAYBACK_METRIC_CONN_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_ENCODED_FRAMERATE">CIS_SSDK_PLAYBACK_METRIC_ENCODED_FRAMERATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_LINK_ENCRYPTION">CIS_SSDK_PLAYBACK_METRIC_LINK_ENCRYPTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_PLAYER_STATE">CIS_SSDK_PLAYBACK_METRIC_PLAYER_STATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_PLAY_HEAD_TIME">CIS_SSDK_PLAYBACK_METRIC_PLAY_HEAD_TIME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_RENDERED_FRAMERATE">CIS_SSDK_PLAYBACK_METRIC_RENDERED_FRAMERATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_RESOLUTION">CIS_SSDK_PLAYBACK_METRIC_RESOLUTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_SEEK_ENDED">CIS_SSDK_PLAYBACK_METRIC_SEEK_ENDED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_SEEK_STARTED">CIS_SSDK_PLAYBACK_METRIC_SEEK_STARTED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_SIGNAL_STRENGTH">CIS_SSDK_PLAYBACK_METRIC_SIGNAL_STRENGTH</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_PLAYER_FRAMEWORK_NAME">CIS_SSDK_PLAYER_FRAMEWORK_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_PLAYER_FRAMEWORK_VERSION">CIS_SSDK_PLAYER_FRAMEWORK_VERSION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_PLAYER_MODULE_NAME">CIS_SSDK_PLAYER_MODULE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_PLAYER_MODULE_VERSION">CIS_SSDK_PLAYER_MODULE_VERSION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_SETTINGS_ENABLE_CONSOLE_LOGS">CIS_SSDK_SETTINGS_ENABLE_CONSOLE_LOGS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_SETTINGS_GATEWAY_URL">CIS_SSDK_SETTINGS_GATEWAY_URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_SETTINGS_HTTP_TIMEOUT">CIS_SSDK_SETTINGS_HTTP_TIMEOUT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_SETTINGS_LOG_LEVEL">CIS_SSDK_SETTINGS_LOG_LEVEL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_SSDK_SETTINGS_STORAGE_TIMEOUT">CIS_SSDK_SETTINGS_STORAGE_TIMEOUT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_STOPPED">CIS_STOPPED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Constants.html#/c:@CIS_UNKNOWN">CIS_UNKNOWN</a>
+              </li>
               <li class="nav-group-task">
                 <a href="Constants.html#/c:@CWS_FALSE">CWS_FALSE</a>
               </li>
@@ -119,6 +278,9 @@
                 <a href="Enums/AdType.html">AdType</a>
               </li>
               <li class="nav-group-task">
+                <a href="Enums/ConvivaAdPlayerState.html">ConvivaAdPlayerState</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Enums/DeviceType.html">DeviceType</a>
               </li>
               <li class="nav-group-task">
@@ -145,6 +307,12 @@
             <a href="Protocols.html">Protocols</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
+                <a href="Protocols/CISAdAnalyticsProtocol.html">CISAdAnalyticsProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CISAnalyticsProtocol.html">CISAnalyticsProtocol</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Protocols/CISCallbackProtocol.html">CISCallbackProtocol</a>
               </li>
               <li class="nav-group-task">
@@ -169,10 +337,16 @@
                 <a href="Protocols/CISIModuleVersion.html">CISIModuleVersion</a>
               </li>
               <li class="nav-group-task">
+                <a href="Protocols/CISLoggerProtocol.html">CISLoggerProtocol</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Protocols/CISLoggingProtocol.html">CISLoggingProtocol</a>
               </li>
               <li class="nav-group-task">
                 <a href="Protocols/CISMetadataProtocol.html">CISMetadataProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CISPlayerEventsListenerProtocol.html">CISPlayerEventsListenerProtocol</a>
               </li>
               <li class="nav-group-task">
                 <a href="Protocols/CISPlayerStateManagerProtocol.html">CISPlayerStateManagerProtocol</a>
@@ -182,6 +356,15 @@
               </li>
               <li class="nav-group-task">
                 <a href="Protocols/CISStorageProtocol.html">CISStorageProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CISStreamAnalyticsProtocol.html">CISStreamAnalyticsProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CISStreamerProxyFactoryProtocol.html">CISStreamerProxyFactoryProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CISStreamerProxyProtocol.html">CISStreamerProxyProtocol</a>
               </li>
               <li class="nav-group-task">
                 <a href="Protocols.html#/c:objc(pl)CISSystemFactoryProtocol">CISSystemFactoryProtocol</a>
@@ -194,6 +377,44 @@
               </li>
               <li class="nav-group-task">
                 <a href="Protocols/CISTimerProtocol.html">CISTimerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/CISVideoAnalyticsProtocol.html">CISVideoAnalyticsProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Protocols/ConvivaRequestDelegate.html">ConvivaRequestDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="Type%20Definitions.html#/c:CISAdAnalytics.h@T@CISAdAnalytics">CISAdAnalytics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Type%20Definitions.html#/c:CISAnalytics.h@T@CISAnalytics">CISAnalytics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Type%20Definitions.html#/c:CISStreamAnalytics.h@T@CISBaseAnalytics">CISBaseAnalytics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Type%20Definitions.html#/c:CISClientSettingProtocol.h@T@CISClientSettings">CISClientSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Type%20Definitions.html#/c:CISPlayerEventsListenerProtocol.h@T@CISPlayerEventsListener">CISPlayerEventsListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Type%20Definitions.html#/c:CISStreamerProxyProtocol.h@T@CISStreamerProxy">CISStreamerProxy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Type%20Definitions.html#/c:CISStreamerProxyFactoryProtocol.h@T@CISStreamerProxyFactory">CISStreamerProxyFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Type%20Definitions.html#/c:CISVideoAnalytics.h@T@CISVideoAnalytics">CISVideoAnalytics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Type%20Definitions.html#/c:CISStreamAnalytics.h@T@UpdateHandler">UpdateHandler</a>
               </li>
             </ul>
           </li>
@@ -209,6 +430,222 @@
           <section class="section task-group-section">
             <div class="task-group">
               <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CISAdAnalyticsProtocol"></a>
+                    <a name="//apple_ref/objc/Protocol/CISAdAnalyticsProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CISAdAnalyticsProtocol">CISAdAnalyticsProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/CISAdAnalyticsProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">CISAdAnalyticsProtocol</span> <span class="o">&lt;</span><span class="n"><a href="Protocols/CISStreamAnalyticsProtocol.html">CISStreamAnalyticsProtocol</a></span><span class="o">&gt;</span>
+
+<span class="cm">/**
+* Sets ad info.
+* @param adInfo ad related info.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">setAdInfo</span><span class="p">:(</span><span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">adInfo</span><span class="p">;</span>
+
+<span class="cm">/**
+* Sets Ad PlayerInfo.
+* @param adPlayerInfo ad player info.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">setAdPlayerInfo</span><span class="p">:(</span><span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">adPlayerInfo</span><span class="p">;</span>
+
+<span class="cm">/**
+* Reports ad failure.
+* @param errorMessage error message.
+* @param adInfo ad related info.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportAdFailed</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">errorMessage</span> <span class="nf">adInfo</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">adInfo</span><span class="p">;</span>
+
+<span class="cm">/**
+* Reports ad load event.
+* @param adInfo ad related info.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportAdLoaded</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">adInfo</span><span class="p">;</span>
+
+<span class="cm">/**
+* Reports ad start event.
+* @param adInfo ad related info.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportAdStarted</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">adInfo</span><span class="p">;</span>
+
+<span class="cm">/**
+* Reports ad end event.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="n">reportAdEnded</span><span class="p">;</span>
+
+<span class="cm">/**
+* Reports ad error event.
+* @param errorMessage Error message.
+* @param severity Severity of the error.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportAdError</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">errorMessage</span> <span class="nf">severity</span><span class="p">:(</span><span class="n"><a href="Enums/ErrorSeverity.html">ErrorSeverity</a></span><span class="p">)</span><span class="nv">severity</span><span class="p">;</span>
+
+<span class="cm">/**
+* Reports ad skip event.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="n">reportAdSkipped</span><span class="p">;</span>
+
+<span class="cm">/**
+* Reports ad player event.
+* @param eventType Event type.
+* @param details Event details.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportAdPlayerEvent</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">eventType</span> <span class="nf">details</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">details</span><span class="p">;</span>
+
+<span class="cm">/**
+* Reports ad metirc.
+* @param key Metric key.
+* @param value Metric value.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportAdMetric</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">key</span> <span class="nf">value</span><span class="p">:(</span><span class="n">id</span><span class="p">)</span><span class="nv">value</span><span class="p">;</span>
+
+<span class="cm">/**
+* Used to set content session id.If already customer integrated EI using legacy api and wanted to integrate AI or other products using this sdk shall use this.
+* @param sessionID Video playback session id.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">setContentSessionID</span><span class="p">:(</span><span class="kt">int</span><span class="p">)</span><span class="nv">sessionID</span><span class="p">;</span>
+
+<span class="k">@end</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CISAdAnalyticsProtocol</span> <span class="p">:</span> <span class="kt"><a href="Protocols/CISStreamAnalyticsProtocol.html">CISStreamAnalyticsProtocol</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CISAnalyticsProtocol"></a>
+                    <a name="//apple_ref/objc/Protocol/CISAnalyticsProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CISAnalyticsProtocol">CISAnalyticsProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/CISAnalyticsProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">CISAnalyticsProtocol</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span>
+
+<span class="cm">/**
+* Returns client id.
+* @return clientid.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span> <span class="n">getClientId</span><span class="p">;</span>
+
+<span class="cm">/**
+* Creates video analytics objects.
+* @return CISVideoAnalytics instance.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="n"><a href="Type%20Definitions.html#/c:CISVideoAnalytics.h@T@CISVideoAnalytics">CISVideoAnalytics</a></span><span class="p">)</span> <span class="n">createVideoAnalytics</span><span class="p">;</span>
+
+<span class="cm">/**
+* Applicable only incase of  Conviva Module case. Creates video analytics objects.
+* @param options Refer USER OPTIONS section defined in CSSConstants.h
+* @return CISVideoAnalytics instance.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="n"><a href="Type%20Definitions.html#/c:CISVideoAnalytics.h@T@CISVideoAnalytics">CISVideoAnalytics</a></span><span class="p">)</span> <span class="nf">createVideoAnalytics</span><span class="p">:(</span><span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">options</span><span class="p">;</span>
+
+<span class="cm">/**
+* Creates ad analytics objects.
+* @return CISAdAnalytics instance.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="n"><a href="Type%20Definitions.html#/c:CISAdAnalytics.h@T@CISAdAnalytics">CISAdAnalytics</a></span><span class="p">)</span> <span class="n">createAdAnalytics</span><span class="p">;</span>
+
+<span class="cm">/**
+* Creates ad analytics object by linking already created video analytics object.
+* @param videoAnalytics Video analytcis object.
+* @return CISAdAnalytics instance.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="n"><a href="Type%20Definitions.html#/c:CISAdAnalytics.h@T@CISAdAnalytics">CISAdAnalytics</a></span><span class="p">)</span> <span class="nf">createAdAnalyticsWithVideoAnalytics</span><span class="p">:(</span><span class="n"><a href="Type%20Definitions.html#/c:CISVideoAnalytics.h@T@CISVideoAnalytics">CISVideoAnalytics</a></span><span class="p">)</span> <span class="n">videoAnalytics</span><span class="p">;</span>
+
+<span class="cm">/**
+* Reports app level event.
+* @param event Event name.
+* @param details Event details.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportAppEvent</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">event</span> <span class="nf">details</span><span class="p">:(</span><span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">details</span><span class="p">;</span>
+
+<span class="cm">/**
+* Reports app background event useful to initiate cleanup.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="n">reportAppBackgrounded</span><span class="p">;</span>
+
+<span class="cm">/**
+* Reports app forground event useful to resume the analytics session.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="n">reportAppForegrounded</span><span class="p">;</span>
+
+<span class="cm">/**
+* @brief Set user preferences for data collection.
+* @param userPrefs pass key value pair as user preferences.
+* Currently Supported keys: "idfa", "idfv".
+* Expected Values:
+* YES - Will collect id for mentioned key.
+* NO - Will stop collecting id for mentioned key.
+* Sample Usage:
+* [clientSettings setUserPreferenceForDataCollection:[NSDictionary dictionaryWithObjectsAndKeys: @YES, @"idfa", @NO, @"idfv", nil]];
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">setUserPrefsForDataCollection</span><span class="p">:(</span><span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">userPrefs</span><span class="p">;</span>
+
+<span class="cm">/**
+ * @brief Set user preferences for data collection.
+ * @param userPrefs pass key value pair as user preferences.
+ * Currently Supported keys: "idfa", "idfv".
+ * Expected Values:
+ * YES - Will stop collecting id for mentioned key and delete previously collected data.
+ * NO - Will not have any effect.
+ * Sample Usage:
+ * [clientSettings setUserPreferenceForDataDeletion:[NSDictionary dictionaryWithObjectsAndKeys: @NO, @"idfa", @YES, @"idfv", nil]];
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">setUserPrefsForDataDeletion</span><span class="p">:(</span><span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">userPrefs</span><span class="p">;</span>
+
+<span class="cm">/**
+* Performs required cleanup.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="n">cleanup</span><span class="p">;</span>
+
+<span class="k">@end</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CISAnalyticsProtocol</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
                 <li class="item">
                   <div>
                     <code>
@@ -242,10 +679,6 @@
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -280,10 +713,6 @@ platform classes where its instance is passed may need to call Run or Done metho
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -317,10 +746,6 @@ platform classes where its instance is passed may need to call Run or Done metho
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -357,10 +782,6 @@ The class instance conforming to this protocol can be used to manage, create Pla
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -396,10 +817,6 @@ The instance of this class is created while creating an instance of class confor
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -434,10 +851,6 @@ this is used by the Conviva library to make HTTP(S) requests.</p>
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -473,10 +886,6 @@ Generally, the player interface class will conform to this protocol.</p>
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -510,10 +919,92 @@ Generally, the player interface class will conform to this protocol.</p>
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CISLoggerProtocol"></a>
+                    <a name="//apple_ref/objc/Protocol/CISLoggerProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CISLoggerProtocol">CISLoggerProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/CISLoggerProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">CISLoggerProtocol</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span>
+<span class="err">@required</span>
+<span class="cm">/**
+ * Associates a module name with this Logger.
+ * @param moduleName The module name to use for this logger.
+ */</span>
+<span class="k">-</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setModuleName</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">moduleName</span><span class="p">;</span>
+
+<span class="cm">/**
+ * Associates a session ID with this Logger.
+ * @param sessionId The session ID to use for this logger.
+ */</span>
+<span class="k">-</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setSessionId</span><span class="p">:(</span><span class="kt">int</span><span class="p">)</span><span class="nv">sessionId</span><span class="p">;</span>
+
+<span class="cm">/**
+* Logs a message to the console at func level.
+* @param message The message to log at func level.
+*/</span>
+<span class="k">-</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">func</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">message</span><span class="p">;</span>
+
+<span class="cm">/**
+ * Logs a message to the console at DEBUG level.
+ * @param message The message to log at DEBUG level.
+ */</span>
+<span class="k">-</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">debug</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">message</span><span class="p">;</span>
+
+<span class="cm">/**
+ * Logs a message to the console at INFO level.
+ * @param message The message to log at INFO level.
+ */</span>
+<span class="k">-</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">info</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">message</span><span class="p">;</span>
+
+<span class="cm">/**
+ * Logs a message to the console at WARNING level.
+ * @param message The message to log at WARNING level.
+ */</span>
+<span class="k">-</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">warning</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">message</span><span class="p">;</span>
+
+<span class="cm">/**
+ * Logs a message to the console at ERROR level.
+ * @param message The message to log at ERROR level.
+ */</span>
+<span class="k">-</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">error</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">message</span><span class="p">;</span>
+
+<span class="k">@optional</span>
+<span class="cm">/*
+ * Used only for for debugging when we want to log to console
+ * but not log to buffer
+ * @praram  NSString logger message
+ * @param LogLevel Log level
+ */</span>
+<span class="k">-</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">consoleLog</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">message</span> <span class="nf">logLevel</span><span class="p">:(</span><span class="n"><a href="Enums/LogLevel.html">LogLevel</a></span><span class="p">)</span><span class="nv">LogLevel</span><span class="p">;</span>
+
+<span class="k">@end</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CISLoggerProtocol</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
                 <li class="item">
                   <div>
                     <code>
@@ -548,10 +1039,6 @@ this is used by the Conviva library to log.</p>
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -586,10 +1073,140 @@ this is used by the Conviva library to gather system information.</p>
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CISPlayerEventsListenerProtocol"></a>
+                    <a name="//apple_ref/objc/Protocol/CISPlayerEventsListenerProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CISPlayerEventsListenerProtocol">CISPlayerEventsListenerProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/CISPlayerEventsListenerProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">CISPlayerEventsListenerProtocol</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span>
+
+<span class="c1">/// @brief Signal a change in the bitrate, resource or CDN</span>
+<span class="c1">///</span>
+<span class="c1">/// \param bitrateKbps New bitrate</span>
+<span class="c1">/// \param cdn New CDN</span>
+<span class="c1">/// \param resource New resource</span>
+<span class="c1">/// \note Use -1 or null to keep previous value</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setStream</span><span class="p">:(</span><span class="kt">int</span><span class="p">)</span><span class="nv">bitrateKbps</span> <span class="nf">cdn</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">cdn</span> <span class="nf">resource</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">resource</span><span class="p">;</span>
+
+<span class="c1">/// @brief Signal change in average bitrate</span>
+<span class="c1">///</span>
+<span class="c1">/// \param avgbitrateKbps New bitrate</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setAverageBitrate</span><span class="p">:(</span><span class="kt">int</span><span class="p">)</span><span class="nv">avgbitrateKbps</span><span class="p">;</span>
+
+
+<span class="c1">/// @brief Signal change in playing state</span>
+<span class="c1">///</span>
+<span class="c1">/// \param newState the new playing state (one of the constants in PlayerStates)</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setPlayingState</span><span class="p">:(</span><span class="kt">int</span><span class="p">)</span><span class="nv">newState</span><span class="p">;</span>
+
+<span class="c1">/// @brief Signal an error</span>
+<span class="c1">///</span>
+<span class="c1">/// \param err Error Message</span>
+<span class="c1">//- (void)onError:(ConvivaStreamerError *)err;</span>
+
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">onError</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">errMsg</span> <span class="nf">fatal</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">fatal</span><span class="p">;</span>
+
+<span class="c1">/// @brief Signal an error</span>
+<span class="c1">///</span>
+<span class="c1">/// \param videoWidth Video Width</span>
+<span class="c1">/// \param videoHeight Video Height</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setVideoDimensionChages</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">videoWidth</span> <span class="nf">videoHeight</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">videoHeight</span><span class="p">;</span>
+
+<span class="c1">/// @brief Signal an player seeking</span>
+<span class="k">-</span><span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">isPlayerSeeking</span><span class="p">;</span>
+
+<span class="c1">//-(void)setSeekEvent:(SeekActionType)type seekPosition:(NSInteger)seekToPosition;</span>
+
+<span class="k">-</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setSeekStart</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">seekToPosition</span><span class="p">;</span>
+
+<span class="k">-</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setSeekStop</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">seekToPosition</span><span class="p">;</span>
+
+<span class="c1">/// @brief sets the module version</span>
+<span class="c1">///</span>
+<span class="c1">/// \param moduleVersion module version</span>
+<span class="k">-</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setModuleVersion</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">moduleVersion</span><span class="p">;</span>
+
+<span class="c1">/// @brief sets the module name</span>
+<span class="c1">///</span>
+<span class="c1">/// \param moduleName module version</span>
+<span class="k">-</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setModuleName</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">moduleName</span><span class="p">;</span>
+
+<span class="c1">/// @brief sets the framework name</span>
+<span class="c1">///</span>
+<span class="c1">/// \param fwName module version</span>
+<span class="k">-</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setFrameworkName</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">fwName</span><span class="p">;</span>
+
+<span class="c1">/// @brief  sets the framework version</span>
+<span class="c1">///</span>
+<span class="c1">/// \param fwVersion module version</span>
+<span class="k">-</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setFrameworkVersion</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">fwVersion</span><span class="p">;</span>
+
+<span class="c1">/// @brief  sets the streamUrl</span>
+<span class="c1">///</span>
+<span class="c1">/// \param streamUrl Stream url</span>
+<span class="k">-</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setStreamUrl</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">streamUrl</span><span class="p">;</span>
+
+<span class="c1">/// @brief  sets the content length</span>
+<span class="c1">///</span>
+<span class="c1">/// \param contentLength length</span>
+<span class="k">-</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setContentLength</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">contentLength</span><span class="p">;</span>
+
+<span class="c1">/// @brief  sets the cdn ip</span>
+<span class="c1">///</span>
+<span class="c1">/// \param cdnIp cdn ip address</span>
+<span class="k">-</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setCdnIp</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">cdnIp</span><span class="p">;</span>
+
+<span class="c1">/// @brief Sets play head time</span>
+<span class="c1">///</span>
+<span class="c1">/// \param pht Play head time</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setPHT</span><span class="p">:(</span><span class="kt">int64_t</span><span class="p">)</span><span class="nv">pht</span><span class="p">;</span>
+
+<span class="c1">/// @brief Sets buffer length</span>
+<span class="c1">///</span>
+<span class="c1">/// \param bl Buffer length</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setBufferLength</span><span class="p">:(</span><span class="kt">int64_t</span><span class="p">)</span><span class="nv">bl</span><span class="p">;</span>
+
+<span class="c1">/// @brief Sets average frame rate</span>
+<span class="c1">///</span>
+<span class="c1">/// \param fps Average frame rate.</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setAverageFrameRate</span><span class="p">:(</span><span class="kt">int</span><span class="p">)</span><span class="nv">fps</span><span class="p">;</span>
+
+<span class="c1">/// @brief Sets encoded frame rate</span>
+<span class="c1">///</span>
+<span class="c1">/// \param fps Encoded frame rate.</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setEncodedFrameRate</span><span class="p">:(</span><span class="kt">int</span><span class="p">)</span><span class="nv">fps</span><span class="p">;</span>
+
+<span class="c1">/// @brief Tells whether simplified sdk/legacy sdk api's used.</span>
+<span class="c1">///</span>
+<span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span> <span class="n">isSimplifiedSDKApiUsed</span><span class="p">;</span>
+<span class="k">@end</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CISPlayerEventsListenerProtocol</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
                 <li class="item">
                   <div>
                     <code>
@@ -626,10 +1243,6 @@ The lifecycle of the class conforming to this protocol is managed by application
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -663,10 +1276,6 @@ The lifecycle of the class conforming to this protocol is managed by application
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -701,10 +1310,168 @@ this is used by the Conviva library to store required data.The underlying storag
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CISStreamAnalyticsProtocol"></a>
+                    <a name="//apple_ref/objc/Protocol/CISStreamAnalyticsProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CISStreamAnalyticsProtocol">CISStreamAnalyticsProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/CISStreamAnalyticsProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">CISStreamAnalyticsProtocol</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span>
+
+<span class="cm">/**
+*  Reports player state. Please refer PlayerState for possible values.
+*  @param playerState Player state.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportPlayerState</span><span class="p">:(</span><span class="n"><a href="Enums/PlayerState.html">PlayerState</a></span><span class="p">)</span><span class="nv">playerState</span><span class="p">;</span>
+
+<span class="cm">/**
+* Returns session id.
+* @return session id.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span> <span class="n">getSessionId</span><span class="p">;</span>
+
+<span class="cm">/**
+* Reports playback metric.
+* @param key Metric key.Please refer "PLAYBACK METRIC KEYS" section defined in CSSConstants.h for all possible keys.
+* @param value Metric value.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportPlaybackMetric</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">key</span> <span class="nf">value</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">id</span><span class="p">)</span><span class="nv">value</span><span class="p">;</span>
+
+<span class="cm">/**
+* Update Handler callback function.
+*/</span>
+<span class="k">typedef</span> <span class="nf">void</span> <span class="p">(</span><span class="o">^</span><span class="n"><a href="Type%20Definitions.html#/c:CISStreamAnalytics.h@T@UpdateHandler">UpdateHandler</a></span><span class="p">)(</span><span class="kt">void</span><span class="p">);</span>
+
+<span class="cm">/**
+* Sets update handler callback function.
+* @param updateHandler UpdateHandler callback function.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">setUpdateHandler</span><span class="p">:(</span><span class="n"><a href="Type%20Definitions.html#/c:CISStreamAnalytics.h@T@UpdateHandler">UpdateHandler</a></span><span class="p">)</span><span class="nv">updateHandler</span><span class="p">;</span>
+
+<span class="cm">/**
+* Tells whether this is ad analytics interface or not.
+* @return TRUE or FALSE.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span> <span class="n">isAdAnalytics</span><span class="p">;</span>
+
+<span class="cm">/**
+* Tells whether this is video analytics interface or not.
+* @return TRUE or FALSE.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span> <span class="n">isVideoAnalytics</span><span class="p">;</span>
+
+<span class="cm">/**
+* Performs required cleanup.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="n">cleanup</span><span class="p">;</span>
+
+<span class="k">@end</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CISStreamAnalyticsProtocol</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CISStreamerProxyFactoryProtocol"></a>
+                    <a name="//apple_ref/objc/Protocol/CISStreamerProxyFactoryProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CISStreamerProxyFactoryProtocol">CISStreamerProxyFactoryProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/CISStreamerProxyFactoryProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">CISStreamerProxyFactoryProtocol</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span>
+
+<span class="k">@optional</span>
+<span class="k">-</span> <span class="p">(</span><span class="n"><a href="Type%20Definitions.html#/c:CISStreamerProxyProtocol.h@T@CISStreamerProxy">CISStreamerProxy</a></span><span class="p">)</span><span class="nf">createStreamerProxy</span><span class="p">:(</span><span class="n">id</span><span class="p">)</span><span class="nv">streamer</span>
+                   <span class="nf">playerEventsListener</span><span class="p">:(</span><span class="n"><a href="Type%20Definitions.html#/c:CISPlayerEventsListenerProtocol.h@T@CISPlayerEventsListener">CISPlayerEventsListener</a></span><span class="p">)</span><span class="nv">playerEventsListener</span>
+                                 <span class="nf">logger</span><span class="p">:(</span><span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="Protocols/CISLoggerProtocol.html">CISLoggerProtocol</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">logger</span><span class="p">;</span>
+
+<span class="k">-</span> <span class="p">(</span><span class="n"><a href="Type%20Definitions.html#/c:CISStreamerProxyProtocol.h@T@CISStreamerProxy">CISStreamerProxy</a></span><span class="p">)</span><span class="nf">createStreamerProxy</span><span class="p">:(</span><span class="n"><a href="Type%20Definitions.html#/c:CISPlayerEventsListenerProtocol.h@T@CISPlayerEventsListener">CISPlayerEventsListener</a></span><span class="p">)</span><span class="nv">playerEventsListener</span>
+                                 <span class="nf">logger</span><span class="p">:(</span><span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="Protocols/CISLoggerProtocol.html">CISLoggerProtocol</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">logger</span><span class="p">;</span>
+
+<span class="k">@end</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CISStreamerProxyFactoryProtocol</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CISStreamerProxyProtocol"></a>
+                    <a name="//apple_ref/objc/Protocol/CISStreamerProxyProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CISStreamerProxyProtocol">CISStreamerProxyProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/CISStreamerProxyProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">CISStreamerProxyProtocol</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span>
+
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="n">cleanup</span><span class="p">;</span>
+
+<span class="k">@end</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CISStreamerProxyProtocol</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
                 <li class="item">
                   <div>
                     <code>
@@ -739,10 +1506,6 @@ which were created with class conforming to CISSystemInterfaceProtocol.</p>
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -777,10 +1540,6 @@ CISMetadataProtocol, CISStorageProtocol protocols required by the Conviva iOS SD
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -815,10 +1574,6 @@ this is used by the Conviva library to query time.</p>
                     </section>
                   </div>
                 </li>
-              </ul>
-            </div>
-            <div class="task-group">
-              <ul>
                 <li class="item">
                   <div>
                     <code>
@@ -853,13 +1608,163 @@ this is used by the Conviva library access system timers.</p>
                     </section>
                   </div>
                 </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CISVideoAnalyticsProtocol"></a>
+                    <a name="//apple_ref/objc/Protocol/CISVideoAnalyticsProtocol" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CISVideoAnalyticsProtocol">CISVideoAnalyticsProtocol</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/CISVideoAnalyticsProtocol.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">CISVideoAnalyticsProtocol</span> <span class="o">&lt;</span><span class="n"><a href="Protocols/CISStreamAnalyticsProtocol.html">CISStreamAnalyticsProtocol</a></span><span class="o">&gt;</span>
+
+<span class="cm">/**
+ * Set content metadata for an existing monitoring session.
+ * @param contentInfo Content meta data. Please refer "METADATA CONSTANTS" section defined in CSSConstants.h for possible keys.
+ */</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">setContentInfo</span><span class="p">:(</span><span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">contentInfo</span><span class="p">;</span>
+
+<span class="cm">/**
+* Set player metadata for an existing monitoring session.
+* @param playerInfo Content meta data.Please refer "PLAYER INFO CONSTANTS" section defined in CSSConstants.h for possible keys.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">setPlayerInfo</span><span class="p">:(</span><span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">playerInfo</span><span class="p">;</span>
+
+<span class="cm">/**
+* Reports playback start.
+* @param contentInfo Content meta data.Please refer "METADATA CONSTANTS" section defined in CSSConstants.h for possible keys.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportPlaybackRequested</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">contentInfo</span><span class="p">;</span>
+
+<span class="cm">/**
+* Reports playback end.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="n">reportPlaybackEnded</span><span class="p">;</span>
+
+<span class="cm">/**
+* Reports playback faiulure.
+* @param errorMessage Error message.
+* @param contentInfo Content meta data.Please refer "METADATA CONSTANTS" section defined in CSSConstants.h for possible keys.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportPlaybackFailed</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">errorMessage</span> <span class="nf">contentInfo</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">contentInfo</span><span class="p">;</span>
+
+<span class="cm">/**
+ * Reports an error for this monitoring session.
+ * @param errorMessage The error message to be reported.
+ * @param severity The severity of the error.
+ */</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportPlaybackError</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">errorMessage</span> <span class="nf">errorSeverity</span><span class="p">:(</span><span class="n"><a href="Enums/ErrorSeverity.html">ErrorSeverity</a></span><span class="p">)</span><span class="nv">severity</span><span class="p">;</span>
+
+<span class="cm">/**
+ * Send a playback event to Conviva.
+ * @param eventName Name of the custom event.
+ * @param attributes A dictionary of key-value pairs associated with the event.
+ */</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportPlaybackEvent</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">eventName</span> <span class="nf">withAttributes</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">attributes</span><span class="p">;</span>
+
+<span class="cm">/**
+ * Notify Conviva that an ad is about to start for the monitoring session.
+ * @param adPlayer Whether the ad is played by the same player as the original video content.
+ * @param adType Whether the ad is embedded in the content stream.
+ * @param adBreakInfo Ad Break info.Please refer "AD BREAK CONSTANTS"  section defined in CSSConstants.h for possible keys.
+ */</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportAdBreakStarted</span><span class="p">:(</span><span class="n"><a href="Enums/AdPlayer.html">AdPlayer</a></span><span class="p">)</span><span class="nv">adPlayer</span> <span class="nf">adType</span><span class="p">:(</span><span class="n"><a href="Enums/AdTechnology.html">AdTechnology</a></span><span class="p">)</span><span class="nv">adType</span> <span class="nf">adBreakInfo</span><span class="p">:(</span><span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">adBreakInfo</span><span class="p">;</span>
+
+<span class="cm">/**
+ * Notify Conviva that an ad has ended for the monitoring session.
+ */</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="n">reportAdBreakEnded</span><span class="p">;</span>
+
+<span class="cm">/**
+* If customer uses modules developed conviva for AVPlayer,AVQueuePlayer and Brightcove, shall use this method to pass player instance to enable auto
+* detecction of required metrics.
+* @param player Player object(Support AVPlayer,AVQueuePlayer and Brightcove).
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">setPlayer</span><span class="p">:(</span><span class="n">id</span><span class="p">)</span><span class="nv">player</span><span class="p">;</span>
+
+<span class="cm">/**
+* Reports playback metric.
+* @param key Metric key.Please refer "PLAYBACK METRIC KEYS" section defined in CSSConstants.h for all possible keys.
+* @param value Metric value.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportPlaybackMetric</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">key</span> <span class="nf">value</span><span class="p">:(</span><span class="n">id</span><span class="p">)</span><span class="nv">value</span><span class="p">;</span>
+
+<span class="cm">/**
+* Set ad analytics object on video analytics to enable seamlessly passing common data from video analytics to ad analytcis.
+* @param adAnalytics  Ad analytics.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">setAdAnalytics</span><span class="p">:(</span><span class="n"><a href="Type%20Definitions.html#/c:CISAdAnalytics.h@T@CISAdAnalytics">CISAdAnalytics</a></span><span class="p">)</span><span class="nv">adAnalytics</span><span class="p">;</span>
+
+<span class="k">@end</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">CISVideoAnalyticsProtocol</span> <span class="p">:</span> <span class="kt"><a href="Protocols/CISStreamAnalyticsProtocol.html">CISStreamAnalyticsProtocol</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)ConvivaRequestDelegate"></a>
+                    <a name="//apple_ref/objc/Protocol/ConvivaRequestDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)ConvivaRequestDelegate">ConvivaRequestDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Protocols/ConvivaRequestDelegate.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">ConvivaRequestDelegate</span> <span class="o">&lt;</span><span class="n">NSObject</span><span class="o">&gt;</span>
+
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">handleRequest</span><span class="p">:(</span><span class="n">NSURLRequest</span> <span class="o">*</span><span class="p">)</span><span class="nv">request</span>
+    <span class="nf">completionHandler</span><span class="p">:(</span><span class="kt">void</span><span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSData</span> <span class="o">*</span><span class="n">responseData</span><span class="p">,</span> <span class="n">NSURLResponse</span> <span class="o">*</span><span class="n">response</span><span class="p">,</span> <span class="n">NSError</span> <span class="o">*</span><span class="n">error</span><span class="p">))</span><span class="nv">completionHandler</span><span class="p">;</span>
+
+<span class="k">@end</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">protocol</span> <span class="kt">ConvivaRequestDelegate</span> <span class="p">:</span> <span class="kt">NSObjectProtocol</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
               </ul>
             </div>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2019 <a class="link" href="https://git.corp.conviva.com/device/conviva-ios-sdk" target="_blank" rel="external">Conviva, Inc.</a>. All rights reserved. (Last updated: 2019-11-25)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2020 <a class="link" href="https://github.com/Conviva-Internal/conviva-ios-sdksrc" target="_blank" rel="external">Conviva, Inc.</a>. All rights reserved. (Last updated: 2020-07-23)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>

@@ -1,0 +1,915 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ConvivaContentInfo Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Class/ConvivaContentInfo" class="dashAnchor"></a>
+    <a title="ConvivaContentInfo Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">ConvivaSDK 4.0.5 Docs</a> (80% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">ConvivaSDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ConvivaContentInfo Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/CISAnalyticsCreator.html">CISAnalyticsCreator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISClientCreator.html">CISClientCreator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISClientSettingCreator.html">CISClientSettingCreator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISConstants.html">CISConstants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISContentMetadata.html">CISContentMetadata</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISSystemFactoryCreator.html">CISSystemFactoryCreator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISSystemInterfaceCreator.html">CISSystemInterfaceCreator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISSystemSettings.html">CISSystemSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISUtility.html">CISUtility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConvivaContentInfo.html">ConvivaContentInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConvivaLightSession.html">ConvivaLightSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConvivaPlayerState.html">ConvivaPlayerState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)IOSHttpInterface">IOSHttpInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)IOSLoggingInterface">IOSLoggingInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)IOSMetadataInterface">IOSMetadataInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)IOSStorageInterface">IOSStorageInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/IOSSystemInterfaceFactory.html">IOSSystemInterfaceFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/IOSSystemTimer.html">IOSSystemTimer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)IOSTimeInterface">IOSTimeInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)IOSTimerInterface">IOSTimerInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LivePass.html">LivePass</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_BUFFERING">CIS_BUFFERING</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_NOTMONITORED">CIS_NOTMONITORED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_PAUSED">CIS_PAUSED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_PLAYING">CIS_PLAYING</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SDK_OPTION_EXTERNAL_BITRATE_REPORTING">CIS_SDK_OPTION_EXTERNAL_BITRATE_REPORTING</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SDK_OPTION_EXTERNAL_STREAMURL_REPORTING">CIS_SDK_OPTION_EXTERNAL_STREAMURL_REPORTING</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SIGNAL_STRENGTH_INVALID_VALUE">CIS_SIGNAL_STRENGTH_INVALID_VALUE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_AD_BREAK_AD_PLAYER">CIS_SSDK_AD_BREAK_AD_PLAYER</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_AD_BREAK_POD_DURATION">CIS_SSDK_AD_BREAK_POD_DURATION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_AD_BREAK_POD_INDEX">CIS_SSDK_AD_BREAK_POD_INDEX</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_AD_BREAK_POD_POSITION">CIS_SSDK_AD_BREAK_POD_POSITION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_APP_BACKGROUND_EVENT">CIS_SSDK_APP_BACKGROUND_EVENT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_APP_FOREGROUND_EVENT">CIS_SSDK_APP_FOREGROUND_EVENT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_ASSET_NAME">CIS_SSDK_METADATA_ASSET_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_DEFAULT_RESOURCE">CIS_SSDK_METADATA_DEFAULT_RESOURCE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_DURATION">CIS_SSDK_METADATA_DURATION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_ENCODED_FRAMERATE">CIS_SSDK_METADATA_ENCODED_FRAMERATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_IS_LIVE">CIS_SSDK_METADATA_IS_LIVE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_IS_OFFLINE_PLAYBACK">CIS_SSDK_METADATA_IS_OFFLINE_PLAYBACK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_PLAYER_NAME">CIS_SSDK_METADATA_PLAYER_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_STREAM_URL">CIS_SSDK_METADATA_STREAM_URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_VIEWER_ID">CIS_SSDK_METADATA_VIEWER_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_AVERAGE_BITRATE">CIS_SSDK_PLAYBACK_METRIC_AVERAGE_BITRATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_BITRATE">CIS_SSDK_PLAYBACK_METRIC_BITRATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_BUFFER_LENGTH">CIS_SSDK_PLAYBACK_METRIC_BUFFER_LENGTH</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_CDN_IP">CIS_SSDK_PLAYBACK_METRIC_CDN_IP</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_CONN_TYPE">CIS_SSDK_PLAYBACK_METRIC_CONN_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_ENCODED_FRAMERATE">CIS_SSDK_PLAYBACK_METRIC_ENCODED_FRAMERATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_LINK_ENCRYPTION">CIS_SSDK_PLAYBACK_METRIC_LINK_ENCRYPTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_PLAYER_STATE">CIS_SSDK_PLAYBACK_METRIC_PLAYER_STATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_PLAY_HEAD_TIME">CIS_SSDK_PLAYBACK_METRIC_PLAY_HEAD_TIME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_RENDERED_FRAMERATE">CIS_SSDK_PLAYBACK_METRIC_RENDERED_FRAMERATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_RESOLUTION">CIS_SSDK_PLAYBACK_METRIC_RESOLUTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_SEEK_ENDED">CIS_SSDK_PLAYBACK_METRIC_SEEK_ENDED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_SEEK_STARTED">CIS_SSDK_PLAYBACK_METRIC_SEEK_STARTED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_SIGNAL_STRENGTH">CIS_SSDK_PLAYBACK_METRIC_SIGNAL_STRENGTH</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYER_FRAMEWORK_NAME">CIS_SSDK_PLAYER_FRAMEWORK_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYER_FRAMEWORK_VERSION">CIS_SSDK_PLAYER_FRAMEWORK_VERSION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYER_MODULE_NAME">CIS_SSDK_PLAYER_MODULE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYER_MODULE_VERSION">CIS_SSDK_PLAYER_MODULE_VERSION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_SETTINGS_ENABLE_CONSOLE_LOGS">CIS_SSDK_SETTINGS_ENABLE_CONSOLE_LOGS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_SETTINGS_GATEWAY_URL">CIS_SSDK_SETTINGS_GATEWAY_URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_SETTINGS_HTTP_TIMEOUT">CIS_SSDK_SETTINGS_HTTP_TIMEOUT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_SETTINGS_LOG_LEVEL">CIS_SSDK_SETTINGS_LOG_LEVEL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_SETTINGS_STORAGE_TIMEOUT">CIS_SSDK_SETTINGS_STORAGE_TIMEOUT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_STOPPED">CIS_STOPPED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_UNKNOWN">CIS_UNKNOWN</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CWS_FALSE">CWS_FALSE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CWS_TRUE">CWS_TRUE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@ConvivaSDKVersionNumber">ConvivaSDKVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@ConvivaSDKVersionString">ConvivaSDKVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@NO_SESSION_KEY">NO_SESSION_KEY</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AdPlayer.html">AdPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AdPosition.html">AdPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AdServingType.html">AdServingType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AdStream.html">AdStream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AdTechnology.html">AdTechnology</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AdType.html">AdType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ConvivaAdPlayerState.html">ConvivaAdPlayerState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DeviceType.html">DeviceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ErrorSeverity.html">ErrorSeverity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ErrorType.html">ErrorType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Events.html">Events</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LogLevel.html">LogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PlayerState.html">PlayerState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/StreamType.html">StreamType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CISAdAnalyticsProtocol.html">CISAdAnalyticsProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISAnalyticsProtocol.html">CISAnalyticsProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISCallbackProtocol.html">CISCallbackProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/c:objc(pl)CISCallback_RunnableProtocol">CISCallback_RunnableProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISCancelProtocol.html">CISCancelProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISClientProtocol.html">CISClientProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISClientSettingProtocol.html">CISClientSettingProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISHTTPProtocol.html">CISHTTPProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISIClientMeasureInterface.html">CISIClientMeasureInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISIModuleVersion.html">CISIModuleVersion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISLoggerProtocol.html">CISLoggerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISLoggingProtocol.html">CISLoggingProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISMetadataProtocol.html">CISMetadataProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISPlayerEventsListenerProtocol.html">CISPlayerEventsListenerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISPlayerStateManagerProtocol.html">CISPlayerStateManagerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISRunnableProtocol.html">CISRunnableProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISStorageProtocol.html">CISStorageProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISStreamAnalyticsProtocol.html">CISStreamAnalyticsProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISStreamerProxyFactoryProtocol.html">CISStreamerProxyFactoryProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISStreamerProxyProtocol.html">CISStreamerProxyProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/c:objc(pl)CISSystemFactoryProtocol">CISSystemFactoryProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/c:objc(pl)CISSystemInterfaceProtocol">CISSystemInterfaceProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISTimeProtocol.html">CISTimeProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISTimerProtocol.html">CISTimerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISVideoAnalyticsProtocol.html">CISVideoAnalyticsProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ConvivaRequestDelegate.html">ConvivaRequestDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISAdAnalytics.h@T@CISAdAnalytics">CISAdAnalytics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISAnalytics.h@T@CISAnalytics">CISAnalytics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISStreamAnalytics.h@T@CISBaseAnalytics">CISBaseAnalytics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISClientSettingProtocol.h@T@CISClientSettings">CISClientSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISPlayerEventsListenerProtocol.h@T@CISPlayerEventsListener">CISPlayerEventsListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISStreamerProxyProtocol.h@T@CISStreamerProxy">CISStreamerProxy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISStreamerProxyFactoryProtocol.h@T@CISStreamerProxyFactory">CISStreamerProxyFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISVideoAnalytics.h@T@CISVideoAnalytics">CISVideoAnalytics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISStreamAnalytics.h@T@UpdateHandler">UpdateHandler</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ConvivaContentInfo</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">ConvivaContentInfo</span> <span class="p">:</span> <span class="nc">NSObject</span> <span class="o">&lt;</span><span class="n">NSCopying</span><span class="o">&gt;</span></code></pre>
+
+                </div>
+              </div>
+            <p>@}</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaContentInfo(py)assetName"></a>
+                    <a name="//apple_ref/objc/Property/assetName" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaContentInfo(py)assetName">assetName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A unique identifier for the content, preferably human-readable.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">assetName</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">assetName</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaContentInfo(py)cdnName"></a>
+                    <a name="//apple_ref/objc/Property/cdnName" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaContentInfo(py)cdnName">cdnName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A string identifying the CDN used to stream video.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">cdnName</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">cdnName</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaContentInfo(py)tags"></a>
+                    <a name="//apple_ref/objc/Property/tags" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaContentInfo(py)tags">tags</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A set of key-value pairs used in resource selection and policy evaluation</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSMutableDictionary</span> <span class="o">*</span><span class="n">tags</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">tags</span><span class="p">:</span> <span class="kt">NSMutableDictionary</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaContentInfo(py)isLive"></a>
+                    <a name="//apple_ref/objc/Property/isLive" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaContentInfo(py)isLive">isLive</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set to true if the session includes live content, and false otherwise.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">isLive</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isLive</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaContentInfo(py)streamUrl"></a>
+                    <a name="//apple_ref/objc/Property/streamUrl" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaContentInfo(py)streamUrl">streamUrl</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The URL from which the video is loaded.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">streamUrl</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">streamUrl</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaContentInfo(py)viewerId"></a>
+                    <a name="//apple_ref/objc/Property/viewerId" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaContentInfo(py)viewerId">viewerId</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A string identifying the viewer and is optional.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">viewerId</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">viewerId</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaContentInfo(py)playerName"></a>
+                    <a name="//apple_ref/objc/Property/playerName" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaContentInfo(py)playerName">playerName</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A string identifying the player in use, preferably human-readable.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">playerName</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">playerName</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaContentInfo(py)resource"></a>
+                    <a name="//apple_ref/objc/Property/resource" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaContentInfo(py)resource">resource</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>@brief The resource name used when the streamer does not itself know the
+resource being played.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    If this is null, then the value of cdnName is used for reporting.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSString</span> <span class="o">*</span><span class="n">resource</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">resource</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaContentInfo(py)contentLength"></a>
+                    <a name="//apple_ref/objc/Property/contentLength" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaContentInfo(py)contentLength">contentLength</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An integer identifying the content length</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSInteger</span> <span class="n">contentLength</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">contentLength</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaContentInfo(py)encodedFramerate"></a>
+                    <a name="//apple_ref/objc/Property/encodedFramerate" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaContentInfo(py)encodedFramerate">encodedFramerate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>An integer identifying the encodedframe rate</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSInteger</span> <span class="n">encodedFramerate</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">encodedFramerate</span><span class="p">:</span> <span class="kt">Int</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaContentInfo(py)timestamp"></a>
+                    <a name="//apple_ref/objc/Property/timestamp" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(cs)ConvivaContentInfo(py)timestamp">timestamp</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        
+                      </div>
+                      <div class="abstract">
+                        <p>@brief Timestamp when ConvivaContentInfo was instantiated
+@deprecated Not used</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSTimeInterval</span> <span class="n">timestamp</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">timestamp</span><span class="p">:</span> <span class="kt">TimeInterval</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaContentInfo(py)isOfflinePlayback"></a>
+                    <a name="//apple_ref/objc/Property/isOfflinePlayback" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaContentInfo(py)isOfflinePlayback">isOfflinePlayback</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set to true if the session Offline video, and false otherwise.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">@property</span> <span class="p">(</span><span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">isOfflinePlayback</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isOfflinePlayback</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaContentInfo(cm)createInfoForLightSessionWithAssetName:"></a>
+                    <a name="//apple_ref/objc/Method/+createInfoForLightSessionWithAssetName:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaContentInfo(cm)createInfoForLightSessionWithAssetName:">+createInfoForLightSessionWithAssetName:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>@brief Create a new ConvivaContentInfo with specified assetName.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Missing tags parameter
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">id</span><span class="p">)</span><span class="nf">createInfoForLightSessionWithAssetName</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">assetName</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">createInfoForLightSession</span><span class="p">(</span><span class="n">withAssetName</span> <span class="nv">assetName</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Any</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaContentInfo(im)toCISContentMetadata"></a>
+                    <a name="//apple_ref/objc/Method/-toCISContentMetadata" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaContentInfo(im)toCISContentMetadata">-toCISContentMetadata</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n"><a href="../Classes/CISContentMetadata.html">CISContentMetadata</a></span><span class="o">*</span><span class="p">)</span> <span class="n">toCISContentMetadata</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">toCISContentMetadata</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/CISContentMetadata.html">CISContentMetadata</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://github.com/Conviva-Internal/conviva-ios-sdksrc" target="_blank" rel="external">Conviva, Inc.</a>. All rights reserved. (Last updated: 2020-07-23)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CISVideoAnalyticsProtocol Protocol Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Protocol/CISVideoAnalyticsProtocol" class="dashAnchor"></a>
+    <a title="CISVideoAnalyticsProtocol Protocol Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">ConvivaSDK 4.0.5 Docs</a> (80% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">ConvivaSDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        CISVideoAnalyticsProtocol Protocol Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/CISAnalyticsCreator.html">CISAnalyticsCreator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISClientCreator.html">CISClientCreator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISClientSettingCreator.html">CISClientSettingCreator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISConstants.html">CISConstants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISContentMetadata.html">CISContentMetadata</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISSystemFactoryCreator.html">CISSystemFactoryCreator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISSystemInterfaceCreator.html">CISSystemInterfaceCreator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISSystemSettings.html">CISSystemSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISUtility.html">CISUtility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConvivaContentInfo.html">ConvivaContentInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConvivaLightSession.html">ConvivaLightSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConvivaPlayerState.html">ConvivaPlayerState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)IOSHttpInterface">IOSHttpInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)IOSLoggingInterface">IOSLoggingInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)IOSMetadataInterface">IOSMetadataInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)IOSStorageInterface">IOSStorageInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/IOSSystemInterfaceFactory.html">IOSSystemInterfaceFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/IOSSystemTimer.html">IOSSystemTimer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)IOSTimeInterface">IOSTimeInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)IOSTimerInterface">IOSTimerInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LivePass.html">LivePass</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_BUFFERING">CIS_BUFFERING</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_NOTMONITORED">CIS_NOTMONITORED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_PAUSED">CIS_PAUSED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_PLAYING">CIS_PLAYING</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SDK_OPTION_EXTERNAL_BITRATE_REPORTING">CIS_SDK_OPTION_EXTERNAL_BITRATE_REPORTING</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SDK_OPTION_EXTERNAL_STREAMURL_REPORTING">CIS_SDK_OPTION_EXTERNAL_STREAMURL_REPORTING</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SIGNAL_STRENGTH_INVALID_VALUE">CIS_SIGNAL_STRENGTH_INVALID_VALUE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_AD_BREAK_AD_PLAYER">CIS_SSDK_AD_BREAK_AD_PLAYER</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_AD_BREAK_POD_DURATION">CIS_SSDK_AD_BREAK_POD_DURATION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_AD_BREAK_POD_INDEX">CIS_SSDK_AD_BREAK_POD_INDEX</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_AD_BREAK_POD_POSITION">CIS_SSDK_AD_BREAK_POD_POSITION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_APP_BACKGROUND_EVENT">CIS_SSDK_APP_BACKGROUND_EVENT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_APP_FOREGROUND_EVENT">CIS_SSDK_APP_FOREGROUND_EVENT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_ASSET_NAME">CIS_SSDK_METADATA_ASSET_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_DEFAULT_RESOURCE">CIS_SSDK_METADATA_DEFAULT_RESOURCE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_DURATION">CIS_SSDK_METADATA_DURATION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_ENCODED_FRAMERATE">CIS_SSDK_METADATA_ENCODED_FRAMERATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_IS_LIVE">CIS_SSDK_METADATA_IS_LIVE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_IS_OFFLINE_PLAYBACK">CIS_SSDK_METADATA_IS_OFFLINE_PLAYBACK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_PLAYER_NAME">CIS_SSDK_METADATA_PLAYER_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_STREAM_URL">CIS_SSDK_METADATA_STREAM_URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_VIEWER_ID">CIS_SSDK_METADATA_VIEWER_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_AVERAGE_BITRATE">CIS_SSDK_PLAYBACK_METRIC_AVERAGE_BITRATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_BITRATE">CIS_SSDK_PLAYBACK_METRIC_BITRATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_BUFFER_LENGTH">CIS_SSDK_PLAYBACK_METRIC_BUFFER_LENGTH</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_CDN_IP">CIS_SSDK_PLAYBACK_METRIC_CDN_IP</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_CONN_TYPE">CIS_SSDK_PLAYBACK_METRIC_CONN_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_ENCODED_FRAMERATE">CIS_SSDK_PLAYBACK_METRIC_ENCODED_FRAMERATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_LINK_ENCRYPTION">CIS_SSDK_PLAYBACK_METRIC_LINK_ENCRYPTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_PLAYER_STATE">CIS_SSDK_PLAYBACK_METRIC_PLAYER_STATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_PLAY_HEAD_TIME">CIS_SSDK_PLAYBACK_METRIC_PLAY_HEAD_TIME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_RENDERED_FRAMERATE">CIS_SSDK_PLAYBACK_METRIC_RENDERED_FRAMERATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_RESOLUTION">CIS_SSDK_PLAYBACK_METRIC_RESOLUTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_SEEK_ENDED">CIS_SSDK_PLAYBACK_METRIC_SEEK_ENDED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_SEEK_STARTED">CIS_SSDK_PLAYBACK_METRIC_SEEK_STARTED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_SIGNAL_STRENGTH">CIS_SSDK_PLAYBACK_METRIC_SIGNAL_STRENGTH</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYER_FRAMEWORK_NAME">CIS_SSDK_PLAYER_FRAMEWORK_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYER_FRAMEWORK_VERSION">CIS_SSDK_PLAYER_FRAMEWORK_VERSION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYER_MODULE_NAME">CIS_SSDK_PLAYER_MODULE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYER_MODULE_VERSION">CIS_SSDK_PLAYER_MODULE_VERSION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_SETTINGS_ENABLE_CONSOLE_LOGS">CIS_SSDK_SETTINGS_ENABLE_CONSOLE_LOGS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_SETTINGS_GATEWAY_URL">CIS_SSDK_SETTINGS_GATEWAY_URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_SETTINGS_HTTP_TIMEOUT">CIS_SSDK_SETTINGS_HTTP_TIMEOUT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_SETTINGS_LOG_LEVEL">CIS_SSDK_SETTINGS_LOG_LEVEL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_SETTINGS_STORAGE_TIMEOUT">CIS_SSDK_SETTINGS_STORAGE_TIMEOUT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_STOPPED">CIS_STOPPED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_UNKNOWN">CIS_UNKNOWN</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CWS_FALSE">CWS_FALSE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CWS_TRUE">CWS_TRUE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@ConvivaSDKVersionNumber">ConvivaSDKVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@ConvivaSDKVersionString">ConvivaSDKVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@NO_SESSION_KEY">NO_SESSION_KEY</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AdPlayer.html">AdPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AdPosition.html">AdPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AdServingType.html">AdServingType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AdStream.html">AdStream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AdTechnology.html">AdTechnology</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AdType.html">AdType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ConvivaAdPlayerState.html">ConvivaAdPlayerState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DeviceType.html">DeviceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ErrorSeverity.html">ErrorSeverity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ErrorType.html">ErrorType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Events.html">Events</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LogLevel.html">LogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PlayerState.html">PlayerState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/StreamType.html">StreamType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CISAdAnalyticsProtocol.html">CISAdAnalyticsProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISAnalyticsProtocol.html">CISAnalyticsProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISCallbackProtocol.html">CISCallbackProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/c:objc(pl)CISCallback_RunnableProtocol">CISCallback_RunnableProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISCancelProtocol.html">CISCancelProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISClientProtocol.html">CISClientProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISClientSettingProtocol.html">CISClientSettingProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISHTTPProtocol.html">CISHTTPProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISIClientMeasureInterface.html">CISIClientMeasureInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISIModuleVersion.html">CISIModuleVersion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISLoggerProtocol.html">CISLoggerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISLoggingProtocol.html">CISLoggingProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISMetadataProtocol.html">CISMetadataProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISPlayerEventsListenerProtocol.html">CISPlayerEventsListenerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISPlayerStateManagerProtocol.html">CISPlayerStateManagerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISRunnableProtocol.html">CISRunnableProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISStorageProtocol.html">CISStorageProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISStreamAnalyticsProtocol.html">CISStreamAnalyticsProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISStreamerProxyFactoryProtocol.html">CISStreamerProxyFactoryProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISStreamerProxyProtocol.html">CISStreamerProxyProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/c:objc(pl)CISSystemFactoryProtocol">CISSystemFactoryProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/c:objc(pl)CISSystemInterfaceProtocol">CISSystemInterfaceProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISTimeProtocol.html">CISTimeProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISTimerProtocol.html">CISTimerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISVideoAnalyticsProtocol.html">CISVideoAnalyticsProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ConvivaRequestDelegate.html">ConvivaRequestDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISAdAnalytics.h@T@CISAdAnalytics">CISAdAnalytics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISAnalytics.h@T@CISAnalytics">CISAnalytics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISStreamAnalytics.h@T@CISBaseAnalytics">CISBaseAnalytics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISClientSettingProtocol.h@T@CISClientSettings">CISClientSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISPlayerEventsListenerProtocol.h@T@CISPlayerEventsListener">CISPlayerEventsListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISStreamerProxyProtocol.h@T@CISStreamerProxy">CISStreamerProxy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISStreamerProxyFactoryProtocol.h@T@CISStreamerProxyFactory">CISStreamerProxyFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISVideoAnalytics.h@T@CISVideoAnalytics">CISVideoAnalytics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISStreamAnalytics.h@T@UpdateHandler">UpdateHandler</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>CISVideoAnalyticsProtocol</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@protocol</span> <span class="nc">CISVideoAnalyticsProtocol</span> <span class="o">&lt;</span><span class="n"><a href="../Protocols/CISStreamAnalyticsProtocol.html">CISStreamAnalyticsProtocol</a></span><span class="o">&gt;</span>
+
+<span class="cm">/**
+ * Set content metadata for an existing monitoring session.
+ * @param contentInfo Content meta data. Please refer "METADATA CONSTANTS" section defined in CSSConstants.h for possible keys.
+ */</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">setContentInfo</span><span class="p">:(</span><span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">contentInfo</span><span class="p">;</span>
+
+<span class="cm">/**
+* Set player metadata for an existing monitoring session.
+* @param playerInfo Content meta data.Please refer "PLAYER INFO CONSTANTS" section defined in CSSConstants.h for possible keys.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">setPlayerInfo</span><span class="p">:(</span><span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">playerInfo</span><span class="p">;</span>
+
+<span class="cm">/**
+* Reports playback start.
+* @param contentInfo Content meta data.Please refer "METADATA CONSTANTS" section defined in CSSConstants.h for possible keys.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportPlaybackRequested</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">contentInfo</span><span class="p">;</span>
+
+<span class="cm">/**
+* Reports playback end.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="n">reportPlaybackEnded</span><span class="p">;</span>
+
+<span class="cm">/**
+* Reports playback faiulure.
+* @param errorMessage Error message.
+* @param contentInfo Content meta data.Please refer "METADATA CONSTANTS" section defined in CSSConstants.h for possible keys.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportPlaybackFailed</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">errorMessage</span> <span class="nf">contentInfo</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">contentInfo</span><span class="p">;</span>
+
+<span class="cm">/**
+ * Reports an error for this monitoring session.
+ * @param errorMessage The error message to be reported.
+ * @param severity The severity of the error.
+ */</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportPlaybackError</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">errorMessage</span> <span class="nf">errorSeverity</span><span class="p">:(</span><span class="n"><a href="../Enums/ErrorSeverity.html">ErrorSeverity</a></span><span class="p">)</span><span class="nv">severity</span><span class="p">;</span>
+
+<span class="cm">/**
+ * Send a playback event to Conviva.
+ * @param eventName Name of the custom event.
+ * @param attributes A dictionary of key-value pairs associated with the event.
+ */</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportPlaybackEvent</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">eventName</span> <span class="nf">withAttributes</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">attributes</span><span class="p">;</span>
+
+<span class="cm">/**
+ * Notify Conviva that an ad is about to start for the monitoring session.
+ * @param adPlayer Whether the ad is played by the same player as the original video content.
+ * @param adType Whether the ad is embedded in the content stream.
+ * @param adBreakInfo Ad Break info.Please refer "AD BREAK CONSTANTS"  section defined in CSSConstants.h for possible keys.
+ */</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportAdBreakStarted</span><span class="p">:(</span><span class="n"><a href="../Enums/AdPlayer.html">AdPlayer</a></span><span class="p">)</span><span class="nv">adPlayer</span> <span class="nf">adType</span><span class="p">:(</span><span class="n"><a href="../Enums/AdTechnology.html">AdTechnology</a></span><span class="p">)</span><span class="nv">adType</span> <span class="nf">adBreakInfo</span><span class="p">:(</span><span class="n">NSDictionary</span><span class="o">*</span><span class="p">)</span><span class="nv">adBreakInfo</span><span class="p">;</span>
+
+<span class="cm">/**
+ * Notify Conviva that an ad has ended for the monitoring session.
+ */</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="n">reportAdBreakEnded</span><span class="p">;</span>
+
+<span class="cm">/**
+* If customer uses modules developed conviva for AVPlayer,AVQueuePlayer and Brightcove, shall use this method to pass player instance to enable auto
+* detecction of required metrics.
+* @param player Player object(Support AVPlayer,AVQueuePlayer and Brightcove).
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">setPlayer</span><span class="p">:(</span><span class="n">id</span><span class="p">)</span><span class="nv">player</span><span class="p">;</span>
+
+<span class="cm">/**
+* Reports playback metric.
+* @param key Metric key.Please refer "PLAYBACK METRIC KEYS" section defined in CSSConstants.h for all possible keys.
+* @param value Metric value.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">reportPlaybackMetric</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">key</span> <span class="nf">value</span><span class="p">:(</span><span class="n">id</span><span class="p">)</span><span class="nv">value</span><span class="p">;</span>
+
+<span class="cm">/**
+* Set ad analytics object on video analytics to enable seamlessly passing common data from video analytics to ad analytcis.
+* @param adAnalytics  Ad analytics.
+*/</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span> <span class="nf">setAdAnalytics</span><span class="p">:(</span><span class="n"><a href="../Type%20Definitions.html#/c:CISAdAnalytics.h@T@CISAdAnalytics">CISAdAnalytics</a></span><span class="p">)</span><span class="nv">adAnalytics</span><span class="p">;</span>
+
+<span class="k">@end</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CISVideoAnalyticsProtocol(im)setContentInfo:"></a>
+                    <a name="//apple_ref/objc/Method/-setContentInfo:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CISVideoAnalyticsProtocol(im)setContentInfo:">-setContentInfo:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set content metadata for an existing monitoring session.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setContentInfo</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">contentInfo</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setContentInfo</span><span class="p">(</span><span class="n">_</span> <span class="nv">contentInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>contentInfo</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Content meta data. Please refer &ldquo;METADATA CONSTANTS&rdquo; section defined in CSSConstants.h for possible keys.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CISVideoAnalyticsProtocol(im)setPlayerInfo:"></a>
+                    <a name="//apple_ref/objc/Method/-setPlayerInfo:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CISVideoAnalyticsProtocol(im)setPlayerInfo:">-setPlayerInfo:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set player metadata for an existing monitoring session.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setPlayerInfo</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">playerInfo</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setPlayerInfo</span><span class="p">(</span><span class="n">_</span> <span class="nv">playerInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>playerInfo</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Content meta data.Please refer &ldquo;PLAYER INFO CONSTANTS&rdquo; section defined in CSSConstants.h for possible keys.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CISVideoAnalyticsProtocol(im)reportPlaybackRequested:"></a>
+                    <a name="//apple_ref/objc/Method/-reportPlaybackRequested:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CISVideoAnalyticsProtocol(im)reportPlaybackRequested:">-reportPlaybackRequested:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Reports playback start.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">reportPlaybackRequested</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">contentInfo</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">reportPlaybackRequested</span><span class="p">(</span><span class="n">_</span> <span class="nv">contentInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>contentInfo</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Content meta data.Please refer &ldquo;METADATA CONSTANTS&rdquo; section defined in CSSConstants.h for possible keys.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CISVideoAnalyticsProtocol(im)reportPlaybackEnded"></a>
+                    <a name="//apple_ref/objc/Method/-reportPlaybackEnded" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CISVideoAnalyticsProtocol(im)reportPlaybackEnded">-reportPlaybackEnded</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Reports playback end.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">reportPlaybackEnded</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">reportPlaybackEnded</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CISVideoAnalyticsProtocol(im)reportPlaybackFailed:contentInfo:"></a>
+                    <a name="//apple_ref/objc/Method/-reportPlaybackFailed:contentInfo:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CISVideoAnalyticsProtocol(im)reportPlaybackFailed:contentInfo:">-reportPlaybackFailed:<wbr>contentInfo:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Reports playback faiulure.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">reportPlaybackFailed</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">errorMessage</span>
+                 <span class="nf">contentInfo</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">contentInfo</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">reportPlaybackFailed</span><span class="p">(</span><span class="n">_</span> <span class="nv">errorMessage</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">contentInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>errorMessage</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Error message.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>contentInfo</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Content meta data.Please refer &ldquo;METADATA CONSTANTS&rdquo; section defined in CSSConstants.h for possible keys.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CISVideoAnalyticsProtocol(im)reportPlaybackError:errorSeverity:"></a>
+                    <a name="//apple_ref/objc/Method/-reportPlaybackError:errorSeverity:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CISVideoAnalyticsProtocol(im)reportPlaybackError:errorSeverity:">-reportPlaybackError:<wbr>errorSeverity:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Reports an error for this monitoring session.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">reportPlaybackError</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">errorMessage</span>
+              <span class="nf">errorSeverity</span><span class="p">:(</span><span class="n"><a href="../Enums/ErrorSeverity.html">ErrorSeverity</a></span><span class="p">)</span><span class="nv">severity</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">reportPlaybackError</span><span class="p">(</span><span class="n">_</span> <span class="nv">errorMessage</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">errorSeverity</span> <span class="nv">severity</span><span class="p">:</span> <span class="kt"><a href="../Enums/ErrorSeverity.html">ErrorSeverity</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>errorMessage</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The error message to be reported.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>severity</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The severity of the error.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CISVideoAnalyticsProtocol(im)reportPlaybackEvent:withAttributes:"></a>
+                    <a name="//apple_ref/objc/Method/-reportPlaybackEvent:withAttributes:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CISVideoAnalyticsProtocol(im)reportPlaybackEvent:withAttributes:">-reportPlaybackEvent:<wbr>withAttributes:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Send a playback event to Conviva.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">reportPlaybackEvent</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">eventName</span>
+             <span class="nf">withAttributes</span><span class="p">:(</span><span class="n">nullable</span> <span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">attributes</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">reportPlaybackEvent</span><span class="p">(</span><span class="n">_</span> <span class="nv">eventName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">withAttributes</span> <span class="nv">attributes</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>eventName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Name of the custom event.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>attributes</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A dictionary of key-value pairs associated with the event.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CISVideoAnalyticsProtocol(im)reportAdBreakStarted:adType:adBreakInfo:"></a>
+                    <a name="//apple_ref/objc/Method/-reportAdBreakStarted:adType:adBreakInfo:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CISVideoAnalyticsProtocol(im)reportAdBreakStarted:adType:adBreakInfo:">-reportAdBreakStarted:<wbr>adType:<wbr>adBreakInfo:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notify Conviva that an ad is about to start for the monitoring session.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">reportAdBreakStarted</span><span class="p">:(</span><span class="n"><a href="../Enums/AdPlayer.html">AdPlayer</a></span><span class="p">)</span><span class="nv">adPlayer</span>
+                      <span class="nf">adType</span><span class="p">:(</span><span class="n"><a href="../Enums/AdTechnology.html">AdTechnology</a></span><span class="p">)</span><span class="nv">adType</span>
+                 <span class="nf">adBreakInfo</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">adBreakInfo</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">reportAdBreakStarted</span><span class="p">(</span><span class="n">_</span> <span class="nv">adPlayer</span><span class="p">:</span> <span class="kt"><a href="../Enums/AdPlayer.html">AdPlayer</a></span><span class="p">,</span> <span class="nv">adType</span><span class="p">:</span> <span class="kt"><a href="../Enums/AdTechnology.html">AdTechnology</a></span><span class="p">,</span> <span class="nv">adBreakInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>adPlayer</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Whether the ad is played by the same player as the original video content.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>adType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Whether the ad is embedded in the content stream.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>adBreakInfo</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Ad Break info.Please refer &ldquo;AD BREAK CONSTANTS&rdquo;  section defined in CSSConstants.h for possible keys.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CISVideoAnalyticsProtocol(im)reportAdBreakEnded"></a>
+                    <a name="//apple_ref/objc/Method/-reportAdBreakEnded" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CISVideoAnalyticsProtocol(im)reportAdBreakEnded">-reportAdBreakEnded</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notify Conviva that an ad has ended for the monitoring session.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">reportAdBreakEnded</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">reportAdBreakEnded</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CISVideoAnalyticsProtocol(im)setPlayer:"></a>
+                    <a name="//apple_ref/objc/Method/-setPlayer:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CISVideoAnalyticsProtocol(im)setPlayer:">-setPlayer:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>If customer uses modules developed conviva for AVPlayer,AVQueuePlayer and Brightcove, shall use this method to pass player instance to enable auto
+detecction of required metrics.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setPlayer</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">id</span><span class="p">)</span><span class="nv">player</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setPlayer</span><span class="p">(</span><span class="n">_</span> <span class="nv">player</span><span class="p">:</span> <span class="kt">Any</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>player</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Player object(Support AVPlayer,AVQueuePlayer and Brightcove).</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CISVideoAnalyticsProtocol(im)reportPlaybackMetric:value:"></a>
+                    <a name="//apple_ref/objc/Method/-reportPlaybackMetric:value:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CISVideoAnalyticsProtocol(im)reportPlaybackMetric:value:">-reportPlaybackMetric:<wbr>value:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Reports playback metric.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">reportPlaybackMetric</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">key</span> <span class="nf">value</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n">id</span><span class="p">)</span><span class="nv">value</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">reportPlaybackMetric</span><span class="p">(</span><span class="n">_</span> <span class="nv">key</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">Any</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>key</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Metric key.Please refer &ldquo;PLAYBACK METRIC KEYS&rdquo; section defined in CSSConstants.h for all possible keys.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>value</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Metric value.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(pl)CISVideoAnalyticsProtocol(im)setAdAnalytics:"></a>
+                    <a name="//apple_ref/objc/Method/-setAdAnalytics:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(pl)CISVideoAnalyticsProtocol(im)setAdAnalytics:">-setAdAnalytics:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set ad analytics object on video analytics to enable seamlessly passing common data from video analytics to ad analytcis.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setAdAnalytics</span><span class="p">:(</span><span class="n">nonnull</span> <span class="n"><a href="../Type%20Definitions.html#/c:CISAdAnalytics.h@T@CISAdAnalytics">CISAdAnalytics</a></span><span class="p">)</span><span class="nv">adAnalytics</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setAdAnalytics</span><span class="p">(</span><span class="n">_</span> <span class="nv">adAnalytics</span><span class="p">:</span> <span class="kt"><a href="../Type%20Definitions.html#/c:CISAdAnalytics.h@T@CISAdAnalytics">CISAdAnalytics</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>adAnalytics</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Ad analytics.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://github.com/Conviva-Internal/conviva-ios-sdksrc" target="_blank" rel="external">Conviva, Inc.</a>. All rights reserved. (Last updated: 2020-07-23)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

@@ -1,0 +1,1455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ConvivaLightSession Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Class/ConvivaLightSession" class="dashAnchor"></a>
+    <a title="ConvivaLightSession Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">ConvivaSDK 4.0.5 Docs</a> (80% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">ConvivaSDK Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        ConvivaLightSession Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/CISAnalyticsCreator.html">CISAnalyticsCreator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISClientCreator.html">CISClientCreator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISClientSettingCreator.html">CISClientSettingCreator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISConstants.html">CISConstants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISContentMetadata.html">CISContentMetadata</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISSystemFactoryCreator.html">CISSystemFactoryCreator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISSystemInterfaceCreator.html">CISSystemInterfaceCreator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISSystemSettings.html">CISSystemSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CISUtility.html">CISUtility</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConvivaContentInfo.html">ConvivaContentInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConvivaLightSession.html">ConvivaLightSession</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConvivaPlayerState.html">ConvivaPlayerState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)IOSHttpInterface">IOSHttpInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)IOSLoggingInterface">IOSLoggingInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)IOSMetadataInterface">IOSMetadataInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)IOSStorageInterface">IOSStorageInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/IOSSystemInterfaceFactory.html">IOSSystemInterfaceFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/IOSSystemTimer.html">IOSSystemTimer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)IOSTimeInterface">IOSTimeInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)IOSTimerInterface">IOSTimerInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LivePass.html">LivePass</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_BUFFERING">CIS_BUFFERING</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_NOTMONITORED">CIS_NOTMONITORED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_PAUSED">CIS_PAUSED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_PLAYING">CIS_PLAYING</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SDK_OPTION_EXTERNAL_BITRATE_REPORTING">CIS_SDK_OPTION_EXTERNAL_BITRATE_REPORTING</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SDK_OPTION_EXTERNAL_STREAMURL_REPORTING">CIS_SDK_OPTION_EXTERNAL_STREAMURL_REPORTING</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SIGNAL_STRENGTH_INVALID_VALUE">CIS_SIGNAL_STRENGTH_INVALID_VALUE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_AD_BREAK_AD_PLAYER">CIS_SSDK_AD_BREAK_AD_PLAYER</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_AD_BREAK_POD_DURATION">CIS_SSDK_AD_BREAK_POD_DURATION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_AD_BREAK_POD_INDEX">CIS_SSDK_AD_BREAK_POD_INDEX</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_AD_BREAK_POD_POSITION">CIS_SSDK_AD_BREAK_POD_POSITION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_APP_BACKGROUND_EVENT">CIS_SSDK_APP_BACKGROUND_EVENT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_APP_FOREGROUND_EVENT">CIS_SSDK_APP_FOREGROUND_EVENT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_ASSET_NAME">CIS_SSDK_METADATA_ASSET_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_DEFAULT_RESOURCE">CIS_SSDK_METADATA_DEFAULT_RESOURCE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_DURATION">CIS_SSDK_METADATA_DURATION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_ENCODED_FRAMERATE">CIS_SSDK_METADATA_ENCODED_FRAMERATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_IS_LIVE">CIS_SSDK_METADATA_IS_LIVE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_IS_OFFLINE_PLAYBACK">CIS_SSDK_METADATA_IS_OFFLINE_PLAYBACK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_PLAYER_NAME">CIS_SSDK_METADATA_PLAYER_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_STREAM_URL">CIS_SSDK_METADATA_STREAM_URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_METADATA_VIEWER_ID">CIS_SSDK_METADATA_VIEWER_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_AVERAGE_BITRATE">CIS_SSDK_PLAYBACK_METRIC_AVERAGE_BITRATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_BITRATE">CIS_SSDK_PLAYBACK_METRIC_BITRATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_BUFFER_LENGTH">CIS_SSDK_PLAYBACK_METRIC_BUFFER_LENGTH</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_CDN_IP">CIS_SSDK_PLAYBACK_METRIC_CDN_IP</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_CONN_TYPE">CIS_SSDK_PLAYBACK_METRIC_CONN_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_ENCODED_FRAMERATE">CIS_SSDK_PLAYBACK_METRIC_ENCODED_FRAMERATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_LINK_ENCRYPTION">CIS_SSDK_PLAYBACK_METRIC_LINK_ENCRYPTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_PLAYER_STATE">CIS_SSDK_PLAYBACK_METRIC_PLAYER_STATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_PLAY_HEAD_TIME">CIS_SSDK_PLAYBACK_METRIC_PLAY_HEAD_TIME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_RENDERED_FRAMERATE">CIS_SSDK_PLAYBACK_METRIC_RENDERED_FRAMERATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_RESOLUTION">CIS_SSDK_PLAYBACK_METRIC_RESOLUTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_SEEK_ENDED">CIS_SSDK_PLAYBACK_METRIC_SEEK_ENDED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_SEEK_STARTED">CIS_SSDK_PLAYBACK_METRIC_SEEK_STARTED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYBACK_METRIC_SIGNAL_STRENGTH">CIS_SSDK_PLAYBACK_METRIC_SIGNAL_STRENGTH</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYER_FRAMEWORK_NAME">CIS_SSDK_PLAYER_FRAMEWORK_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYER_FRAMEWORK_VERSION">CIS_SSDK_PLAYER_FRAMEWORK_VERSION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYER_MODULE_NAME">CIS_SSDK_PLAYER_MODULE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_PLAYER_MODULE_VERSION">CIS_SSDK_PLAYER_MODULE_VERSION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_SETTINGS_ENABLE_CONSOLE_LOGS">CIS_SSDK_SETTINGS_ENABLE_CONSOLE_LOGS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_SETTINGS_GATEWAY_URL">CIS_SSDK_SETTINGS_GATEWAY_URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_SETTINGS_HTTP_TIMEOUT">CIS_SSDK_SETTINGS_HTTP_TIMEOUT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_SETTINGS_LOG_LEVEL">CIS_SSDK_SETTINGS_LOG_LEVEL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_SSDK_SETTINGS_STORAGE_TIMEOUT">CIS_SSDK_SETTINGS_STORAGE_TIMEOUT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_STOPPED">CIS_STOPPED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CIS_UNKNOWN">CIS_UNKNOWN</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CWS_FALSE">CWS_FALSE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@CWS_TRUE">CWS_TRUE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@ConvivaSDKVersionNumber">ConvivaSDKVersionNumber</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@ConvivaSDKVersionString">ConvivaSDKVersionString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:@NO_SESSION_KEY">NO_SESSION_KEY</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/AdPlayer.html">AdPlayer</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AdPosition.html">AdPosition</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AdServingType.html">AdServingType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AdStream.html">AdStream</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AdTechnology.html">AdTechnology</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/AdType.html">AdType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ConvivaAdPlayerState.html">ConvivaAdPlayerState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DeviceType.html">DeviceType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ErrorSeverity.html">ErrorSeverity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ErrorType.html">ErrorType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Events.html">Events</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LogLevel.html">LogLevel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PlayerState.html">PlayerState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/StreamType.html">StreamType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/CISAdAnalyticsProtocol.html">CISAdAnalyticsProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISAnalyticsProtocol.html">CISAnalyticsProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISCallbackProtocol.html">CISCallbackProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/c:objc(pl)CISCallback_RunnableProtocol">CISCallback_RunnableProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISCancelProtocol.html">CISCancelProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISClientProtocol.html">CISClientProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISClientSettingProtocol.html">CISClientSettingProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISHTTPProtocol.html">CISHTTPProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISIClientMeasureInterface.html">CISIClientMeasureInterface</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISIModuleVersion.html">CISIModuleVersion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISLoggerProtocol.html">CISLoggerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISLoggingProtocol.html">CISLoggingProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISMetadataProtocol.html">CISMetadataProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISPlayerEventsListenerProtocol.html">CISPlayerEventsListenerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISPlayerStateManagerProtocol.html">CISPlayerStateManagerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISRunnableProtocol.html">CISRunnableProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISStorageProtocol.html">CISStorageProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISStreamAnalyticsProtocol.html">CISStreamAnalyticsProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISStreamerProxyFactoryProtocol.html">CISStreamerProxyFactoryProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISStreamerProxyProtocol.html">CISStreamerProxyProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/c:objc(pl)CISSystemFactoryProtocol">CISSystemFactoryProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/c:objc(pl)CISSystemInterfaceProtocol">CISSystemInterfaceProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISTimeProtocol.html">CISTimeProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISTimerProtocol.html">CISTimerProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CISVideoAnalyticsProtocol.html">CISVideoAnalyticsProtocol</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ConvivaRequestDelegate.html">ConvivaRequestDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISAdAnalytics.h@T@CISAdAnalytics">CISAdAnalytics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISAnalytics.h@T@CISAnalytics">CISAnalytics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISStreamAnalytics.h@T@CISBaseAnalytics">CISBaseAnalytics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISClientSettingProtocol.h@T@CISClientSettings">CISClientSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISPlayerEventsListenerProtocol.h@T@CISPlayerEventsListener">CISPlayerEventsListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISStreamerProxyProtocol.h@T@CISStreamerProxy">CISStreamerProxy</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISStreamerProxyFactoryProtocol.h@T@CISStreamerProxyFactory">CISStreamerProxyFactory</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISVideoAnalytics.h@T@CISVideoAnalytics">CISVideoAnalytics</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions.html#/c:CISStreamAnalytics.h@T@UpdateHandler">UpdateHandler</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ConvivaLightSession</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">ConvivaLightSession</span> <span class="p">:</span> <span class="nc">NSObject</span>
+
+<span class="c1">/// @brief Cleanup session. Should be called when a video session is over.</span>
+<span class="c1">///</span>
+<span class="c1">/// Releases the reference to monitored streamer. Session can be safely released</span>
+<span class="c1">/// after this call</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">cleanup</span><span class="p">;</span>
+
+<span class="c1">/// Send an custom event pertaining to the session</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">sendEvent</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">name</span> <span class="nf">withAttributes</span><span class="p">:(</span><span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">attributes</span><span class="p">;</span>
+
+<span class="c1">/// This API is depecated</span>
+<span class="c1">/// use the API updateContentMetadata:(ConvivaContentInfo *)newcontentInfo</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setContentLength</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">contentLength</span> <span class="n">DEPRECATED_ATTRIBUTE</span><span class="p">;</span>
+
+<span class="c1">/// Notify that ad has started</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">adStart</span><span class="p">;</span>
+
+<span class="c1">/// Notify that ad has started with type of ad stream and player type etc.</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">adStart</span><span class="p">:(</span><span class="n"><a href="../Enums/AdStream.html">AdStream</a></span><span class="p">)</span><span class="nv">adStream</span> <span class="nf">adPlayer</span><span class="p">:(</span><span class="n"><a href="../Enums/AdPlayer.html">AdPlayer</a></span><span class="p">)</span><span class="nv">adPlayer</span> <span class="nf">adPosition</span><span class="p">:(</span><span class="n"><a href="../Enums/AdPosition.html">AdPosition</a></span><span class="p">)</span><span class="nv">adPosition</span><span class="p">;</span>
+
+<span class="c1">/// Notify that ad has ended</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">adEnd</span><span class="p">;</span>
+
+<span class="c1">/// This API is depecated</span>
+<span class="c1">/// use the API updateContentMetadata:(ConvivaContentInfo *)newcontentInfo</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setCdnNameOrResource</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">cdnNameOrResource</span> <span class="n">DEPRECATED_ATTRIBUTE</span><span class="p">;</span>
+
+<span class="c1">/// Report a fatal error and use specified error message</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">reportError</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">errorMsg</span> <span class="n">DEPRECATED_ATTRIBUTE</span><span class="p">;</span>
+
+<span class="c1">/// Report a fatal and non fatal error and use specified error message</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">reportError</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">errorMessage</span> <span class="nf">errorType</span><span class="p">:(</span><span class="n"><a href="../Enums/ErrorSeverity.html">ErrorSeverity</a></span><span class="p">)</span><span class="nv">severity</span><span class="p">;</span>
+
+<span class="c1">/// Attach streamer to specified streamer */</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">attachStreamer</span><span class="p">:(</span><span class="n">id</span><span class="p">)</span><span class="nv">streamer</span><span class="p">;</span>
+
+<span class="c1">/// @brief Pause session monitoring such that it can be resumed later</span>
+<span class="c1">/// @note The existing streamer is detached from the session.</span>
+<span class="c1">/// @see attachStreamer()</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">pauseMonitor</span><span class="p">;</span>
+
+<span class="c1">/// @brief Set the current bitrate</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setBitrate</span><span class="p">:(</span><span class="kt">int</span><span class="p">)</span><span class="nv">bitrateKbps</span><span class="p">;</span>
+
+<span class="c1">/// @brief Set the CDN Server IP</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setCDNServerIP</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">cdnServerIP</span><span class="p">;</span>
+
+<span class="c1">/// @brief Set the Link Encryption</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setLinkEncryption</span><span class="p">:(</span><span class="n">NSString</span><span class="o">*</span><span class="p">)</span><span class="nv">newLinkEncryption</span><span class="p">;</span>
+
+<span class="c1">/// @brief Set the Signal Strength</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setSignalStrength</span><span class="p">:(</span><span class="kt">double</span><span class="p">)</span><span class="nv">newSignalStrength</span><span class="p">;</span>
+
+<span class="c1">/// @brief Set the Connection Type</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setConnectionType</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">newConnectionType</span><span class="p">;</span>
+
+<span class="c1">/// @brief Set Player seek Start</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setSeekStart</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">seekToPosition</span><span class="p">;</span>
+
+<span class="c1">/// @brief Set Player seek End</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setSeekEnd</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">seekPosition</span><span class="p">;</span>
+
+<span class="c1">/// This API is depecated</span>
+<span class="c1">/// use the API updateContentMetadata:(ConvivaContentInfo *)newcontentInfo</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">updateStreamUrl</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">newStreamUrl</span> <span class="n">DEPRECATED_ATTRIBUTE</span><span class="p">;</span>
+
+<span class="c1">/// @brief update content metadata</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">updateContentMetadata</span><span class="p">:(</span><span class="n"><a href="../Classes/ConvivaContentInfo.html">ConvivaContentInfo</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">newcontentInfo</span><span class="p">;</span>
+
+<span class="cm">/** Reserved method. Do not use. */</span>
+<span class="k">-</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span> <span class="n">currentSessionType</span><span class="p">;</span>
+
+<span class="k">-</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">sessionID</span><span class="p">;</span>
+
+<span class="k">@end</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)cleanup"></a>
+                    <a name="//apple_ref/objc/Method/-cleanup" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)cleanup">-cleanup</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>@brief Cleanup session. Should be called when a video session is over.</p>
+
+<p>Releases the reference to monitored streamer. Session can be safely released
+after this call</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">cleanup</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">cleanup</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)sendEvent:withAttributes:"></a>
+                    <a name="//apple_ref/objc/Method/-sendEvent:withAttributes:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)sendEvent:withAttributes:">-sendEvent:<wbr>withAttributes:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Send an custom event pertaining to the session</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">sendEvent</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">name</span> <span class="nf">withAttributes</span><span class="p">:(</span><span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">attributes</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sendEvent</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="n">withAttributes</span> <span class="nv">attributes</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]</span><span class="o">!</span> <span class="o">=</span> <span class="p">[:])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)setContentLength:"></a>
+                    <a name="//apple_ref/objc/Method/-setContentLength:" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(cs)ConvivaLightSession(im)setContentLength:">-setContentLength:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        
+                      </div>
+                      <div class="abstract">
+                        <p>This API is depecated
+use the API updateContentMetadata:(ConvivaContentInfo *)newcontentInfo</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setContentLength</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">contentLength</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setContentLength</span><span class="p">(</span><span class="n">_</span> <span class="nv">contentLength</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)adStart"></a>
+                    <a name="//apple_ref/objc/Method/-adStart" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)adStart">-adStart</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notify that ad has started</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">adStart</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">adStart</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)adStart:adPlayer:adPosition:"></a>
+                    <a name="//apple_ref/objc/Method/-adStart:adPlayer:adPosition:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)adStart:adPlayer:adPosition:">-adStart:<wbr>adPlayer:<wbr>adPosition:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notify that ad has started with type of ad stream and player type etc.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">adStart</span><span class="p">:(</span><span class="n"><a href="../Enums/AdStream.html">AdStream</a></span><span class="p">)</span><span class="nv">adStream</span>
+       <span class="nf">adPlayer</span><span class="p">:(</span><span class="n"><a href="../Enums/AdPlayer.html">AdPlayer</a></span><span class="p">)</span><span class="nv">adPlayer</span>
+     <span class="nf">adPosition</span><span class="p">:(</span><span class="n"><a href="../Enums/AdPosition.html">AdPosition</a></span><span class="p">)</span><span class="nv">adPosition</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">adStart</span><span class="p">(</span><span class="n">_</span> <span class="nv">adStream</span><span class="p">:</span> <span class="kt"><a href="../Enums/AdStream.html">AdStream</a></span><span class="p">,</span> <span class="nv">adPlayer</span><span class="p">:</span> <span class="kt"><a href="../Enums/AdPlayer.html">AdPlayer</a></span><span class="p">,</span> <span class="nv">adPosition</span><span class="p">:</span> <span class="kt"><a href="../Enums/AdPosition.html">AdPosition</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)adEnd"></a>
+                    <a name="//apple_ref/objc/Method/-adEnd" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)adEnd">-adEnd</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notify that ad has ended</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">adEnd</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">adEnd</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)setCdnNameOrResource:"></a>
+                    <a name="//apple_ref/objc/Method/-setCdnNameOrResource:" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(cs)ConvivaLightSession(im)setCdnNameOrResource:">-setCdnNameOrResource:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        
+                      </div>
+                      <div class="abstract">
+                        <p>This API is depecated
+use the API updateContentMetadata:(ConvivaContentInfo *)newcontentInfo</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setCdnNameOrResource</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">cdnNameOrResource</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setCdnNameOrResource</span><span class="p">(</span><span class="n">_</span> <span class="nv">cdnNameOrResource</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)reportError:"></a>
+                    <a name="//apple_ref/objc/Method/-reportError:" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(cs)ConvivaLightSession(im)reportError:">-reportError:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        
+                      </div>
+                      <div class="abstract">
+                        <p>Report a fatal error and use specified error message</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">reportError</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">errorMsg</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">reportError</span><span class="p">(</span><span class="n">_</span> <span class="nv">errorMsg</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)reportError:errorType:"></a>
+                    <a name="//apple_ref/objc/Method/-reportError:errorType:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)reportError:errorType:">-reportError:<wbr>errorType:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Report a fatal and non fatal error and use specified error message</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">reportError</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">errorMessage</span> <span class="nf">errorType</span><span class="p">:(</span><span class="n"><a href="../Enums/ErrorSeverity.html">ErrorSeverity</a></span><span class="p">)</span><span class="nv">severity</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">reportError</span><span class="p">(</span><span class="n">_</span> <span class="nv">errorMessage</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="n">errorType</span> <span class="nv">severity</span><span class="p">:</span> <span class="kt"><a href="../Enums/ErrorSeverity.html">ErrorSeverity</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)attachStreamer:"></a>
+                    <a name="//apple_ref/objc/Method/-attachStreamer:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)attachStreamer:">-attachStreamer:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Attach streamer to specified streamer */</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">attachStreamer</span><span class="p">:(</span><span class="n">id</span><span class="p">)</span><span class="nv">streamer</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">attachStreamer</span><span class="p">(</span><span class="n">_</span> <span class="nv">streamer</span><span class="p">:</span> <span class="kt">Any</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)pauseMonitor"></a>
+                    <a name="//apple_ref/objc/Method/-pauseMonitor" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)pauseMonitor">-pauseMonitor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>@brief Pause session monitoring such that it can be resumed later</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    The existing streamer is detached from the session.
+
+</div><div class="aside aside-see">
+    <p class="aside-title">See</p>
+    attachStreamer()
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">pauseMonitor</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">pauseMonitor</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)setBitrate:"></a>
+                    <a name="//apple_ref/objc/Method/-setBitrate:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)setBitrate:">-setBitrate:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>@brief Set the current bitrate</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setBitrate</span><span class="p">:(</span><span class="kt">int</span><span class="p">)</span><span class="nv">bitrateKbps</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setBitrate</span><span class="p">(</span><span class="n">_</span> <span class="nv">bitrateKbps</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)setCDNServerIP:"></a>
+                    <a name="//apple_ref/objc/Method/-setCDNServerIP:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)setCDNServerIP:">-setCDNServerIP:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>@brief Set the CDN Server IP</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setCDNServerIP</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">cdnServerIP</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setCDNServerIP</span><span class="p">(</span><span class="n">_</span> <span class="nv">cdnServerIP</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)setLinkEncryption:"></a>
+                    <a name="//apple_ref/objc/Method/-setLinkEncryption:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)setLinkEncryption:">-setLinkEncryption:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>@brief Set the Link Encryption</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setLinkEncryption</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">newLinkEncryption</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setLinkEncryption</span><span class="p">(</span><span class="n">_</span> <span class="nv">newLinkEncryption</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)setSignalStrength:"></a>
+                    <a name="//apple_ref/objc/Method/-setSignalStrength:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)setSignalStrength:">-setSignalStrength:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>@brief Set the Signal Strength</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setSignalStrength</span><span class="p">:(</span><span class="kt">double</span><span class="p">)</span><span class="nv">newSignalStrength</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setSignalStrength</span><span class="p">(</span><span class="n">_</span> <span class="nv">newSignalStrength</span><span class="p">:</span> <span class="kt">Double</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)setConnectionType:"></a>
+                    <a name="//apple_ref/objc/Method/-setConnectionType:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)setConnectionType:">-setConnectionType:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>@brief Set the Connection Type</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setConnectionType</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">newConnectionType</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setConnectionType</span><span class="p">(</span><span class="n">_</span> <span class="nv">newConnectionType</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)setSeekStart:"></a>
+                    <a name="//apple_ref/objc/Method/-setSeekStart:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)setSeekStart:">-setSeekStart:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>@brief Set Player seek Start</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setSeekStart</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">seekToPosition</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setSeekStart</span><span class="p">(</span><span class="n">_</span> <span class="nv">seekToPosition</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)setSeekEnd:"></a>
+                    <a name="//apple_ref/objc/Method/-setSeekEnd:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)setSeekEnd:">-setSeekEnd:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>@brief Set Player seek End</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setSeekEnd</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">seekPosition</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setSeekEnd</span><span class="p">(</span><span class="n">_</span> <span class="nv">seekPosition</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)updateStreamUrl:"></a>
+                    <a name="//apple_ref/objc/Method/-updateStreamUrl:" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(cs)ConvivaLightSession(im)updateStreamUrl:">-updateStreamUrl:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        
+                      </div>
+                      <div class="abstract">
+                        <p>This API is depecated
+use the API updateContentMetadata:(ConvivaContentInfo *)newcontentInfo</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">updateStreamUrl</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">newStreamUrl</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">updateStreamUrl</span><span class="p">(</span><span class="n">_</span> <span class="nv">newStreamUrl</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)updateContentMetadata:"></a>
+                    <a name="//apple_ref/objc/Method/-updateContentMetadata:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)updateContentMetadata:">-updateContentMetadata:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>@brief update content metadata</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">updateContentMetadata</span><span class="p">:(</span><span class="n"><a href="../Classes/ConvivaContentInfo.html">ConvivaContentInfo</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">newcontentInfo</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">updateContentMetadata</span><span class="p">(</span><span class="n">_</span> <span class="nv">newcontentInfo</span><span class="p">:</span> <span class="kt"><a href="../Classes/ConvivaContentInfo.html">ConvivaContentInfo</a></span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)currentSessionType"></a>
+                    <a name="//apple_ref/objc/Method/-currentSessionType" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)currentSessionType">-currentSessionType</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Reserved method. Do not use.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">currentSessionType</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">currentSessionType</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int32</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)sessionID"></a>
+                    <a name="//apple_ref/objc/Method/-sessionID" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)sessionID">-sessionID</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">int</span><span class="p">)</span><span class="n">sessionID</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sessionID</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int32</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)setAdPlayerState:"></a>
+                    <a name="//apple_ref/objc/Method/-setAdPlayerState:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)setAdPlayerState:">-setAdPlayerState:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>@brief Set the ad player state</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setAdPlayerState</span><span class="p">:(</span><span class="n"><a href="../Enums/ConvivaAdPlayerState.html">ConvivaAdPlayerState</a></span><span class="p">)</span><span class="nv">playerState</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setAdPlayerState</span><span class="p">(</span><span class="n">_</span> <span class="nv">playerState</span><span class="p">:</span> <span class="kt"><a href="../Enums/ConvivaAdPlayerState.html">ConvivaAdPlayerState</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)setAdPlayerName:"></a>
+                    <a name="//apple_ref/objc/Method/-setAdPlayerName:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)setAdPlayerName:">-setAdPlayerName:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>@brief Set the ad player name</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setAdPlayerName</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">playerName</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setAdPlayerName</span><span class="p">(</span><span class="n">_</span> <span class="nv">playerName</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)setAdPlayerVersion:"></a>
+                    <a name="//apple_ref/objc/Method/-setAdPlayerVersion:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)setAdPlayerVersion:">-setAdPlayerVersion:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>@brief Set the ad player version</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setAdPlayerVersion</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">playerVersion</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setAdPlayerVersion</span><span class="p">(</span><span class="n">_</span> <span class="nv">playerVersion</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)setAdVideoResolutionWidth:andHeight:"></a>
+                    <a name="//apple_ref/objc/Method/-setAdVideoResolutionWidth:andHeight:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)setAdVideoResolutionWidth:andHeight:">-setAdVideoResolutionWidth:<wbr>andHeight:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>@brief Set the ad player width &amp; height</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setAdVideoResolutionWidth</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">width</span> <span class="nf">andHeight</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">height</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setAdVideoResolutionWidth</span><span class="p">(</span><span class="n">_</span> <span class="nv">width</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="n">andHeight</span> <span class="nv">height</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)setAdPlayHeadTime:"></a>
+                    <a name="//apple_ref/objc/Method/-setAdPlayHeadTime:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)setAdPlayHeadTime:">-setAdPlayHeadTime:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>@brief Set the current ad player instance buffer length  in milliseconds</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setAdPlayHeadTime</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">pht</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setAdPlayHeadTime</span><span class="p">(</span><span class="n">_</span> <span class="nv">pht</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)ConvivaLightSession(im)setAdBufferLength:"></a>
+                    <a name="//apple_ref/objc/Method/-setAdBufferLength:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)ConvivaLightSession(im)setAdBufferLength:">-setAdBufferLength:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>@brief Set the current ad player instance buffer length  in milliseconds</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">setAdBufferLength</span><span class="p">:(</span><span class="n">NSInteger</span><span class="p">)</span><span class="nv">bufferLength</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setAdBufferLength</span><span class="p">(</span><span class="n">_</span> <span class="nv">bufferLength</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2020 <a class="link" href="https://github.com/Conviva-Internal/conviva-ios-sdksrc" target="_blank" rel="external">Conviva, Inc.</a>. All rights reserved. (Last updated: 2020-07-23)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.13.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
